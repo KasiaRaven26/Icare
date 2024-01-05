@@ -7,13 +7,21 @@ import { Words } from "./components/Words";
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="grid-container">
+      <div className="item1"><Header /></div>
+      <div className="item3">Modal</div>
+      <div className="item2">Our Agenda</div>
+      <div className="item3">Locations</div>
+      <div className="item2">Modal</div>
+      <div className="item3">Modal</div>
+      <div className="item2">Join Us</div>
+      <div className="item5">Footer</div>
+      {/* <Header />
       <Footer />
       <Center />
       <Modal />
-      <Words />
-    </>
+      <Words /> */}
+    </div>
   );
 }
 
