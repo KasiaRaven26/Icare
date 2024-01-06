@@ -1,0 +1,54 @@
+.agenda {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    /* border: 1px solid black; */
+  }
+  .location {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-start: 2;
+    /* border: 1px solid black; */
+  }
+  .our-clients {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-start: 3;
+  }
+  .join-us {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-start: 4;
+  }
+  .join-us {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-start: 5;
+  }
+  .donate {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-start: 4;
+  }
+  
+  .grid-container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  @media  (max-width: 600px) {
+    .grid-container {
+        display: block;
+      }
+ }

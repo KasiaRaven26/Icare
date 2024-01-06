@@ -1,11 +1,6 @@
 .footer {
-    position: absolute;
-    height: 100px;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: indigo;
-    color: white;
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
   }
-  

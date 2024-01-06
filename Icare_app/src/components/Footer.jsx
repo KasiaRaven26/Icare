@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
 
-export  function Footer(props) {
+export  function Footer() {
   return (
-    <div className="footer">
-      <h1>Footer notes here</h1>
+    <div>
+      <h3>Kasia Kruk & Adam Kirwan</h3>
     </div>
   );
 }
