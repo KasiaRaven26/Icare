@@ -1,10 +1,11 @@
 import React from "react";
+import logo from "./I_care.jpg";
 import "./Header.css";
 
-export function Header(props) {
+export function Header() {
   return (
     <div>
-      <h3>Icare</h3>
+      <img className="logo" src={logo} alt="Logo" />
     </div>
   );
 }
