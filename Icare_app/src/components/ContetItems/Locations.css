@@ -29,7 +29,7 @@
 
 /* Scale up the box */
 .box:hover {
-  transform: scale(1.02, 1.02);
+  transform: scale(1.1, 1.1);
   box-shadow : 0 0 2em #0f18c9aa;
   border: 2px solid rgb(30, 121, 166);
 }
