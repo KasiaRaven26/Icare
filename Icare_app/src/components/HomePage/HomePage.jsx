@@ -35,7 +35,7 @@ function HomePage() {
       <div className="item6"><Donate /></div>
       <div className="item7">
        </div>
-       <div className="item5">Footer</div>
+       <div className="item5">Kasia Kruk & Adam Kirwan</div>
     </div>
   );
 }

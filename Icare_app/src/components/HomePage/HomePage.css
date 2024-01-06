@@ -9,7 +9,7 @@
   
   .logo {
     height: 6em;
-    padding: 1.5em;
+    
   }
   
   @media (prefers-reduced-motion: no-preference) {
@@ -29,32 +29,32 @@
   .item1 {
     grid-column-start: 1;
     grid-column-end: 3;
-    border: 1px solid black;
+    border-bottom: 3px solid black;
   }
   .item3 {
     grid-column-start: 1;
     grid-column-end: 1;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .item2 {
     grid-column-start: 2;
     grid-column-end: 2;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .item5 {
     grid-column-start: 1;
     grid-column-end: 3;
-    border: 1px solid black;
+    border-top: 3px solid black;
   }
   .item6 {
     grid-column-start: 1;
     grid-column-end: 2;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .item7 {
     grid-column-start: 2;
     grid-column-end: 3;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
   .grid-container {
