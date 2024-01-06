@@ -7,6 +7,7 @@
   margin: 0 auto;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  background-color: rgb(243, 216, 212);
   /* will-change: filter;
     transition: filter 300ms; */
 }
@@ -21,7 +22,7 @@
   height: auto;
   margin: 0 auto;
   cursor: pointer;
-  box-shadow: 0 0 2em #0f18c9aa;
+ 
   transition: all 0.2s ease-in-out;
   /* will-change: filter;
     transition: filter 300ms; */
@@ -30,7 +31,7 @@
 /* Scale up the box */
 .box:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 0 0 2em #0f18c9aa;
+  box-shadow: 0 0 2em  rgb(157, 104, 96);
   border: 2px solid rgb(30, 121, 166);
 }
 

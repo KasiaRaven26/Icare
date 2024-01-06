@@ -8,6 +8,7 @@
     cursor: pointer;
     will-change: filter;
     transition: filter 300ms;
+    background-color: rgb(243, 216, 212);
   }
 .box1:hover {
     border: 3px solid rgb(30, 121, 166);
