@@ -7,3 +7,7 @@
     text-align: center;
 border: 1px solid black ;
 }
+
+.logo {
+    border-radius: 100px;
+}

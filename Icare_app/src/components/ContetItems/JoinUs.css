@@ -1,0 +1,20 @@
+.boxj {
+  border: 1px solid gray;
+  border-radius:200px;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.boxj:hover {
+  border: 3px solid rgb(30, 121, 166);
+  box-shadow : 0 0 2em #0f18c9aa;
+  transition: box-shadow 300ms ease-in-out;
+}
+
+.boxj.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}

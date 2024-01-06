@@ -1,0 +1,50 @@
+.box {
+  border: 1px solid gray;
+  border-radius:200px;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  /* will-change: filter;
+  transition: filter 300ms; */
+}
+
+.box::after {
+  z-index: -1;
+  opacity: 0;
+  border: 1px solid gray;
+  border-radius:200px;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow : 0 0 2em #0f18c9aa;
+  transition: all 0.2s ease-in-out;
+  /* will-change: filter;
+  transition: filter 300ms; */
+}
+
+/* Scale up the box */
+.box:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow : 0 0 2em #0f18c9aa;
+  border: 2px solid rgb(30, 121, 166);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+
+.box:hover::after {
+  opacity: 1;
+}
+/* .box:hover {
+  border: 3px solid rgb(30, 121, 166);
+  box-shadow : 0 0 2em #0f18c9aa;
+  transition: box-shadow 300ms ease-in-out;
+}
+
+.box.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
