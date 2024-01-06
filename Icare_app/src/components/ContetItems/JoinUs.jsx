@@ -2,8 +2,8 @@ import './JoinUs.css';
 
 export function JoinUs() {
     return (
-      <div className='box'>
-        Our Agenda
+      <div className='boxj'>
+        Join Us
       </div>
     );
   }
