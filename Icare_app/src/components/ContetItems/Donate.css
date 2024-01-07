@@ -1,4 +1,4 @@
-.box {
+.donate-box {
   border: 1px solid gray;
   border-radius: 200px;
   padding: 20px;
@@ -7,10 +7,18 @@
   margin: 0 auto;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  /* will-change: filter;
-    transition: filter 300ms; */
-}
+  background-color: rgb(59 185 187 / 41%);
+  animation: slide-in-right2 1000ms ;
 
+}
+@keyframes slide-in-right2{
+  from {
+    transform: translateX(500%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+ }
 .box::after {
   z-index: -1;
   opacity: 0;
@@ -21,7 +29,7 @@
   height: auto;
   margin: 0 auto;
   cursor: pointer;
-  box-shadow: 0 0 2em #0f18c9aa;
+ 
   transition: all 0.2s ease-in-out;
   /* will-change: filter;
     transition: filter 300ms; */
@@ -30,7 +38,7 @@
 /* Scale up the box */
 .box:hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 0 0 2em #0f18c9aa;
+  box-shadow: 0 0 2em  rgb(157, 104, 96);
   border: 2px solid rgb(30, 121, 166);
 }
 

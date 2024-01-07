@@ -1,10 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import { Button } from "./ContetItems/Button";
 
-export  function Footer(props) {
+export  function Footer( {anotherResult}) {
+
+ 
   return (
-    <div className="footer">
-      <h1>Footer notes here</h1>
+    <div>
+      <Button data={anotherResult}/>
     </div>
   );
 }

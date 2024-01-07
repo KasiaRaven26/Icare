@@ -1,50 +1,21 @@
-.box {
+.client-box {
   border: 1px solid gray;
-  border-radius: 200px;
+  border-radius:200px;
   padding: 20px;
   width: 200px;
   height: auto;
   margin: 0 auto;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  /* will-change: filter;
-    transition: filter 300ms; */
+  will-change: filter;
+  transition: filter 300ms;
+  background-color: rgb(59 185 187 / 41%);
+  animation: slide-in-left1 1000ms;
 }
-
-.box::after {
-  z-index: -1;
-  opacity: 0;
-  border: 1px solid gray;
-  border-radius: 200px;
-  padding: 20px;
-  width: 200px;
-  height: auto;
-  margin: 0 auto;
-  cursor: pointer;
-  box-shadow: 0 0 2em #0f18c9aa;
-  transition: all 0.2s ease-in-out;
-  /* will-change: filter;
-    transition: filter 300ms; */
-}
-
-/* Scale up the box */
-.box:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 0 0 2em #0f18c9aa;
-  border: 2px solid rgb(30, 121, 166);
-}
-
-/* Fade in the pseudo-element with the bigger shadow */
-
-.box:hover::after {
-  opacity: 1;
-}
-/* .box:hover {
-    border: 3px solid rgb(30, 121, 166);
-    box-shadow : 0 0 2em #0f18c9aa;
-    transition: box-shadow 300ms ease-in-out;
+ @keyframes slide-in-left1{
+  from {
+    transform: translateX(-400%);
   }
-  
-  .box.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  } */
+  to {
+    transform: translateX(0%);
+  }
+ }

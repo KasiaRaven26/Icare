@@ -2,7 +2,7 @@ import './Locations.css';
 
 export function Locations() {
     return (
-      <div className='box'>
+      <div className='location-box'>
         Our Locations
       </div>
     );
