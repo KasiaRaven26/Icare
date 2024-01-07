@@ -1,5 +1,5 @@
 import "./OurCaregivers.css";
 
 export function OurCaregivers() {
-  return <div className="boxj">Our Caregivers</div>;
+  return <div className="donate-box">Our Caregivers</div>;
 }

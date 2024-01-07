@@ -1,6 +1,6 @@
 .client-box {
   border: 1px solid gray;
-  border-radius:200px;
+  border-radius: 200px;
   padding: 20px;
   width: 200px;
   height: auto;
@@ -10,12 +10,13 @@
   transition: filter 300ms;
   background-color: rgb(59 185 187 / 41%);
   animation: slide-in-left1 1000ms;
+  font-weight: 100;
 }
- @keyframes slide-in-left1{
+@keyframes slide-in-left1 {
   from {
     transform: translateX(-400%);
   }
   to {
     transform: translateX(0%);
   }
- }
+}

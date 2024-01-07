@@ -8,18 +8,18 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   background-color: rgb(59 185 187 / 41%);
-  animation: slide-in-right 1000ms ;
+  animation: slide-in-right 1000ms;
+  font-weight: 100;
 }
 
-@keyframes slide-in-right{
-from {
-  transform: translateX(300%);
+@keyframes slide-in-right {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
-to {
-  transform: translateX(0%);
-}
-}
-
 
 .location-box-out {
   border: 1px solid gray;
@@ -32,20 +32,17 @@ to {
   transition: all 0.2s ease-in-out;
   background-color: rgb(59 185 187 / 41%);
   animation: slide-out-right 1000ms;
-  animation-fill-mode: forwards
+  animation-fill-mode: forwards;
 }
 
-@keyframes slide-out-right{
-from {
-  transform: translateX(0%);
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(200%);
+  }
 }
-to {
-  transform: translateX(200%);
-}
-}
-
-
-
 
 .location-box::after {
   z-index: -1;
@@ -57,7 +54,7 @@ to {
   height: auto;
   margin: 0 auto;
   cursor: pointer;
- 
+
   transition: all 0.2s ease-in-out;
   /* will-change: filter;
     transition: filter 300ms; */
@@ -66,7 +63,7 @@ to {
 /* Scale up the box */
 .location-box :hover {
   transform: scale(1.1, 1.1);
-  box-shadow: 0 0 2em  rgb(157, 104, 96);
+  box-shadow: 0 0 2em rgb(157, 104, 96);
   border: 2px solid rgb(30, 121, 166);
 }
 
