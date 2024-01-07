@@ -1,6 +1,6 @@
 .join-us-box {
   border: 1px solid gray;
-  border-radius:200px;
+  border-radius: 200px;
   padding: 20px;
   width: 200px;
   height: auto;
@@ -10,19 +10,20 @@
   transition: filter 300ms;
   background-color: rgb(59 185 187 / 41%);
   animation: slide-in-left3 1000ms;
+  font-weight: 100;
 }
 
-@keyframes slide-in-left3{
-from {
-  transform: translateX(-600%);
-}
-to {
-  transform: translateX(0%);
-}
+@keyframes slide-in-left3 {
+  from {
+    transform: translateX(-600%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 .boxj:hover {
   border: 3px solid rgb(30, 121, 166);
-  box-shadow : 0 0 2em #0f18c9aa;
+  box-shadow: 0 0 2em #0f18c9aa;
   transition: box-shadow 300ms ease-in-out;
 }
 
