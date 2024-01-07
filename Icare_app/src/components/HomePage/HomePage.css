@@ -1,15 +1,13 @@
-  .logo {
-    height: 6em;
-  }
- 
-  .Header {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    border-bottom: 3px solid black;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  background-color: rgb(59 185 187 /82%);
+.logo {
+  height: 6em;
+}
 
-  }
-  
+.Header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(84, 146, 160, 0.82);
+}
