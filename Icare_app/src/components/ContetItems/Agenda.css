@@ -8,8 +8,9 @@
     cursor: pointer;
     will-change: filter;
     transition: filter 300ms;
-    background-color: rgb(59 185 187);
+    background-color: rgb(59 185 187 / 41%) ;
     animation: slide-in-left 1000ms;
+    color:  rgb(17 78 79);
   }
 
  @keyframes slide-in-left{

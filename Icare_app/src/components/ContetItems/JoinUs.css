@@ -8,14 +8,13 @@
   cursor: pointer;
   will-change: filter;
   transition: filter 300ms;
-  background-color: rgb(59 185 187);
-  animation: slide-in-left 1000ms;
-  animation-range-start: -200%;
+  background-color: rgb(59 185 187 / 41%);
+  animation: slide-in-left3 1000ms;
 }
 
-@keyframes slide-in-left{
+@keyframes slide-in-left3{
 from {
-  transform: translateX(-200%);
+  transform: translateX(-600%);
 }
 to {
   transform: translateX(0%);

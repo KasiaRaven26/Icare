@@ -7,14 +7,13 @@
   margin: 0 auto;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  background-color: rgb(59 185 187);
-  animation: slide-in 1000ms ;
-  animation-range-start: 200%;
+  background-color: rgb(59 185 187 / 41%);
+  animation: slide-in-right 1000ms ;
 }
 
 @keyframes slide-in-right{
 from {
-  transform: translateX(200%);
+  transform: translateX(300%);
 }
 to {
   transform: translateX(0%);
