@@ -6,8 +6,9 @@ import { JoinUs } from "../ContetItems/JoinUs";
 import { Donate } from "../ContetItems/Donate";
 import carer from './carer.jpg'
 import "./Content.css"
+import { Button } from "./Button";
 
-function Content() {
+function Content( {showButtons} ) {
   const myStyle = {
     backgroundImage:
     `url(${carer})`,
@@ -18,9 +19,9 @@ function Content() {
 
   return (
     <div className="grid-container">
-       
+       {console.log(showButtons)}
       <div className="agenda">
-       <Agenda />
+       <Agenda showButton={showButtons}/>
       </div>
       <div className="location">
         <Locations />

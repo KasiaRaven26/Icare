@@ -1,8 +1,8 @@
 import './Agenda.css';
 
-export function Agenda() {
+export function Agenda( props ) {
     return (
-      <div className='agenda-box'>
+      <div className={props.showButton ? 'agenda-box' : 'agenda-box-out' }>
         Our Agenda
       </div>
     );

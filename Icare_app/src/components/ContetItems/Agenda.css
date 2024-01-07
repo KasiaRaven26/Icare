@@ -23,6 +23,32 @@
  }
 
 
+ .agenda-box-out {
+  border: 1px solid gray;
+  border-radius:200px;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  will-change: filter;
+  transition: filter 300ms;
+  background-color: rgb(59 185 187 / 41%) ;
+  animation: slide-out-left 1000ms;
+  color:  rgb(17 78 79);
+  animation-fill-mode: forwards
+ }
+
+ @keyframes slide-out-left{
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+ }
+
+
 
 .box1:hover {
     border: 3px solid rgb(30, 121, 166);
