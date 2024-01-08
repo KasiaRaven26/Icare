@@ -1,5 +1,5 @@
 .join-us-box {
-  border: 1px solid gray;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 200px;
   padding: 20px;
   width: 200px;
@@ -8,7 +8,7 @@
   cursor: pointer;
   will-change: filter;
   transition: filter 300ms;
-  background-color: rgb(59 185 187 / 41%);
+  background-color: rgba(22, 166, 182, 0.322);
   animation: slide-in-left3 1000ms;
   font-weight: 100;
 }
