@@ -1,33 +1,34 @@
 import React from "react";
 import "./ModalContent.css";
 
-export function ModalContent({HidingTheButton}) {
+export function ModalContent({ HidingTheButton }) {
+  const Hide = () => {
+    HidingTheButton(false);
+  };
 
-    const Hide = () => {
-        HidingTheButton(false);
-    }
-
-    return (
-        <div>
-            <div className="modal">
-                <div className="modal-content">
-                    <header>
-                        <div className="close">
-                            <span className="close-btn">
-                                &times;
-                            </span>
-                        </div>
-                        <h1>Our Agenda</h1>
-                    </header>
-                    <body>
-                    </body>
-                    <footer>
-                        <button onClick={Hide}>Close</button>
-                    </footer>
-                </div>
+  return (
+    <div>
+      <div className="modal">
+        <div className="modal-content">
+          <header>
+            <div className="close">
+              <span className="close-btn">&times;</span>
             </div>
-         
+            <h1>Our Agenda</h1>
+          </header>
+          <body>
+            <p>
+              Our platform has been created to help connect clients with
+              caregivers in the Netherlands, Germany and Italy.
+            </p>
+            <p>On the private basis with full safety.</p>
+            <p>For both sides.</p>
+          </body>
+          <footer>
+            <button onClick={Hide}>Close</button>
+          </footer>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
-
