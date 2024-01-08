@@ -1,11 +1,16 @@
 .form {
   padding: 1rem;
+  width: 700px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .control {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-size: 14px;
-  font-family: monospace;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
 }
 
 .control label {
@@ -30,14 +35,15 @@
 }
 
 .actions button {
-  font: inherit;
+  font-style: unset;
+  font-weight: 100;
+  font-size: medium;
   cursor: pointer;
-  background-color: #77002e;
-  color: white;
+  background-color: #10d0b3;
+  color: rgb(8, 7, 7);
   padding: 0.5rem 1.5rem;
-  border: 1px solid #77002e;
-  border-radius: 4px;
-  font-weight: bold;
+  border: 2px #77002e;
+  border-radius: 5px;
 }
 
 .actions button:hover,

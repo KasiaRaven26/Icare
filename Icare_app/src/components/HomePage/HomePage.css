@@ -9,5 +9,7 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-color: rgba(84, 146, 160, 0.82);
+  background-color: rgba(55, 173, 175, 0.673);
+  z-index: 2;
+  position: relative;
 }
