@@ -1,7 +1,14 @@
 import React from "react";
 import "./modal.css";
 
-export function Modal(props) {
+export function Modal({HidingTheForm}) {
+
+    const handleClick = () => {
+        HidingTheForm(false)
+    }
+
+
+
     return (
         <div>
             <div className="modal">
@@ -34,7 +41,7 @@ export function Modal(props) {
                         </form>
                     </body>
                     <footer>
-                        <button>Close</button>
+                        <button onClick={handleClick}>Close</button>
                     </footer>
                 </div>
             </div>
