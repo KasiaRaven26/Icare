@@ -15,20 +15,25 @@ export function Modal({ HidingTheForm }) {
           </header>
           <body>
             <form>
-              <div>
-                <label>Full Name</label>
+              <div className="control">
+                <label>E-mail address</label>
+                <input type="url" />
+              </div>
+              <div className="control">
+                <label>Home address</label>
                 <input type="text" />
               </div>
-              <div>
-                <label>Email Address</label>
-                <input type="text" />
-              </div>
-              <div>
+              <div className="control">
                 <label>Phone number</label>
+                <textarea id="description"></textarea>
+              </div>
+              <div className="control">
+                <label>Upload your resume</label>
                 <input type="text" />
               </div>
-              <div>
-                <button>Register with us</button>
+              <div className="control">
+                <label>2 references from your previous employer</label>
+                <input type="text" />
               </div>
             </form>
           </body>
