@@ -11,9 +11,6 @@ export function ModalContent({ HidingTheButton }) {
       <div className="modal">
         <div className="modal-content">
           <header>
-            <div className="close">
-              <span className="close-btn">&times;</span>
-            </div>
             <h1>Our Agenda</h1>
           </header>
           <body>

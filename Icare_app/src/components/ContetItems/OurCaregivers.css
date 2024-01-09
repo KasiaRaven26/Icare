@@ -9,7 +9,7 @@
   transition: all 0.2s ease-in-out;
   background-color: rgb(59 185 187 / 41%);
   animation: slide-in-right2 1000ms;
-  font-weight: 100;
+  font-weight: 200;
 }
 @keyframes slide-in-right2 {
   from {
