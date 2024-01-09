@@ -11,7 +11,7 @@ export function ModalContent({ HidingTheButton }) {
       <div className="modal">
         <div className="modal-content">
           <header>
-            <h1>Our Agenda</h1>
+            <h1>OUR AGENDA</h1>
           </header>
           <body>
             <p>
