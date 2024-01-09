@@ -1,52 +1,47 @@
 import React from "react";
 import "./modal.css";
 
-export function Modal({HidingTheForm}) {
+export function Modal({ HidingTheForm }) {
+  const handleClick = () => {
+    HidingTheForm(false);
+  };
 
-    const handleClick = () => {
-        HidingTheForm(false)
-    }
-
-
-
-    return (
-        <div>
-            <div className="modal">
-                <div className="modal-content">
-                    <header>
-                        <div className="close">
-                            <span className="close-btn">
-                                &times;
-                            </span>
-                        </div>
-                        <h1>Modal Title</h1>
-                    </header>
-                    <body>
-                        <form>
-                            <div>
-                                <label>Full Name</label>
-                                <input type='text' />
-                            </div>
-                            <div>
-                                <label>Email Address</label>
-                                <input type='text' />
-                            </div>
-                            <div>
-                                <label>Phone number</label>
-                                <input type='text' />
-                            </div>
-                            <div>
-                                <button>Register with us</button>
-                            </div>
-                        </form>
-                    </body>
-                    <footer>
-                        <button onClick={handleClick}>Close</button>
-                    </footer>
-                </div>
-            </div>
-         
+  return (
+    <div>
+      <div className="modal">
+        <div className="modal-content">
+          <header>
+            <h1>Registration Form</h1>
+          </header>
+          <body>
+            <form>
+              <div className="control">
+                <label>E-mail address</label>
+                <input type="url" />
+              </div>
+              <div className="control">
+                <label>Home address</label>
+                <input type="text" />
+              </div>
+              <div className="control">
+                <label>Phone number</label>
+                <textarea id="description"></textarea>
+              </div>
+              <div className="control">
+                <label>Upload your resume</label>
+                <input type="text" />
+              </div>
+              <div className="control">
+                <label>2 references from your previous employer</label>
+                <input type="text" />
+              </div>
+            </form>
+          </body>
+          <footer>
+            <button onClick={handleClick}>Close</button>
+          </footer>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
-
