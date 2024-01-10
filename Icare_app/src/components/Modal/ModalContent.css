@@ -31,7 +31,7 @@ code {
 .modal-content {
   width: 500px;
   height: 500px;
-  background-color: #3f9894db;
+  background-color: #63c8c3c0;
   border-radius: 5px;
   padding: 60px;
   display: flex;
@@ -86,5 +86,6 @@ p {
 h1 {
   text-align: center;
   font-style: normal;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 200;
 }

@@ -11,7 +11,7 @@ export function Modal({ HidingTheForm }) {
       <div className="modal">
         <div className="modal-content">
           <header>
-            <h1>Registration Form</h1>
+            <h1>REGISTRATION</h1>
           </header>
           <body>
             <form>
