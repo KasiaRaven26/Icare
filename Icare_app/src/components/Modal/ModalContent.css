@@ -76,7 +76,13 @@ code {
 p {
   text-align: center;
   padding: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  font-size: 24px;
 }
+
 h1 {
   text-align: center;
   font-style: normal;
