@@ -15,8 +15,8 @@ export function ModalContent({ HidingTheButton }) {
           </header>
           <body>
             <p>
-              Our platform has been created to help connect clients with
-              caregivers in the Netherlands, Germany and Italy.
+              Our platform has been created to connect clients with caregivers
+              in The Netherlands, Germany and Italy.
             </p>
             <p>On the private basis with full safety.</p>
             <p>For both sides.</p>
