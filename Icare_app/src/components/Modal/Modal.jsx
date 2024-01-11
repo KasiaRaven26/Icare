@@ -37,8 +37,8 @@ export function Modal({ HidingTheForm }) {
               </div>
             </form>
           </body>
-          <footer>
-            <button onClick={handleClick}>Close</button>
+          <footer className="click-button">
+            <button  onClick={handleClick}>Close</button>
           </footer>
         </div>
       </div>
