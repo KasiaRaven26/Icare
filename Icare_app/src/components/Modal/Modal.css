@@ -13,7 +13,7 @@ code {
 }
 
 .click-button {
-  display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
 }
