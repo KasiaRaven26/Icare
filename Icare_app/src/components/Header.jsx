@@ -2,6 +2,9 @@ import React from "react";
 import logo from "./I_care.jpg";
 
 export function Header() {
+  const clickEvent = () => {
+    console.log("Hello Kasia");
+  };
   return (
     <div>
       <img className="logo" src={logo} alt="Logo" />
@@ -11,7 +14,7 @@ export function Header() {
       2 - Add an 'onClick' to the buttons. For instance, the buttons should look something like <button onclick={clickEvent}>Login</button>
       3 - Above the return statement above, write an arrow function for the clickEvent. Something like - const clickEvent = () => { console.log("Hello Kasia")}
     */}
-      <button>Login</button>
+      <button onClick={clickEvent}>Login</button>
       <button>Change Language</button>
     </div>
   );
