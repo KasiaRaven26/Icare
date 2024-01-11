@@ -21,7 +21,7 @@ export function ModalContent({ HidingTheButton }) {
             <p>On the private basis with full safety.</p>
             <p>For both sides.</p>
           </body>
-          <footer>
+          <footer className="click-button">
             <button onClick={Hide}>Close</button>
           </footer>
         </div>
