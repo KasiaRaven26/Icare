@@ -1,4 +1,4 @@
-import './JoinUs.css';
+import './ContentItem.css';
 
 export function ContentItem(props) {
     return (
