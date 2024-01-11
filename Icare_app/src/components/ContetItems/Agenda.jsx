@@ -2,7 +2,7 @@ import './Agenda.css';
 
 export function Agenda( props ) {
     return (
-      <div className={props.showButton ? 'agenda-box' : 'agenda-box-out' }>
+      <div className={'agenda-box'}>
         Our Agenda
       </div>
     );
