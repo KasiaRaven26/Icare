@@ -91,3 +91,6 @@ h1 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 150;
 }
+.highlight {
+  text-decoration: underline;
+}
