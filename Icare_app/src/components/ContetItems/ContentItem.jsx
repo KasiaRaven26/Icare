@@ -6,7 +6,7 @@ export function ContentItem(props) {
   const [showModal, setShowModal] = useState(false);
 
   const Adam = () => {
-    console.log(showModal);
+    props.showModal();
     setShowModal(!showModal);
   };
 
