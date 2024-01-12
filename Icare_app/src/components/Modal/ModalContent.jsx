@@ -3,7 +3,7 @@ import "./ModalContent.css";
 
 export function ModalContent({ HidingTheButton }) {
   const Hide = () => {
-    HidingTheButton(false);
+    HidingTheButton();
   };
 
   return (
