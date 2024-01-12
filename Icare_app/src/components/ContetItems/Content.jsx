@@ -4,10 +4,15 @@ import { ContentItem } from "./ContentItem";
 import "./Content.css";
 import { useState } from "react";
 import { Modal } from "../Modal/Modal";
+import { ModalContent } from "../Modal/ModalContent";
 
-function Content({ showButtons }) {
+function Content() {
   const [showJoinUsModal, setShowJoinUsModal] = useState(false);
 
+  const [showOurAgenda, setShowOurAgenda] = useState(false);
+  const handleOurAgenda = () => {
+    setShowOurAgenda(!showOurAgenda);
+  };
   const handleJoinUsModal = () => {
     setShowJoinUsModal(!showJoinUsModal);
   };
@@ -15,10 +20,12 @@ function Content({ showButtons }) {
   return (
     <div>
       {showJoinUsModal ? <Modal HidingTheForm={handleJoinUsModal} /> : null}
-
+      {showOurAgenda ? (
+        <ModalContent HidingTheButton={handleOurAgenda} />
+      ) : null}
       <div className="grid-container">
         <div className="agenda">
-          <ContentItem> Our Agenda</ContentItem>
+          <ContentItem showModal={handleOurAgenda}> Our Agenda</ContentItem>
         </div>
         <div className="location">
           <ContentItem>Our Locations</ContentItem>
