@@ -11,6 +11,8 @@ function Content() {
 
   const [showOurAgenda, setShowOurAgenda] = useState(false);
   const [showOurLocations, setShowOurLocations] = useState(false);
+  const [showOurCaregivers, setShowOurCaregivers] = useState(false);
+  const [showOurClients, setShowOurClients] = useState(false);
 
   const handleOurAgenda = () => {
     setShowOurAgenda(!showOurAgenda);
@@ -21,6 +23,12 @@ function Content() {
   const handleOurLocations = () => {
     setShowOurLocations(!showOurLocations);
   };
+  const handleOurCaregivers = () => {
+    setShowOurCaregivers(!showOurCaregivers);
+  };
+  const handleOurClients = () => {
+    setShowOurClients(!showOurClients);
+  };
   return (
     <div>
       {showJoinUsModal ? <Modal HidingTheForm={handleJoinUsModal} /> : null}
@@ -29,6 +37,12 @@ function Content() {
       ) : null}
       {showOurLocations ? (
         <ModalContent HidingTheButton={handleOurLocations} />
+      ) : null}
+      {showOurCaregivers ? (
+        <ModalContent HidingTheButton={handleOurCaregivers} />
+      ) : null}
+      {showOurClients ? (
+        <ModalContent HidingTheButton={handleOurClients} />
       ) : null}
       <div className="grid-container">
         <div className="agenda">
@@ -40,13 +54,15 @@ function Content() {
           </ContentItem>
         </div>
         <div className="our-clients">
-          <ContentItem>Our Clients</ContentItem>
+          <ContentItem showModal={handleOurClients}>Our Clients</ContentItem>
         </div>
         <div className="join-us">
           <ContentItem showModal={handleJoinUsModal}>Join Us</ContentItem>
         </div>
         <div className="donate">
-          <ContentItem>Our Caregivers</ContentItem>
+          <ContentItem showModal={handleOurCaregivers}>
+            Our Caregivers
+          </ContentItem>
         </div>
       </div>
     </div>
