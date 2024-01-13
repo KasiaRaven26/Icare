@@ -1,5 +1,6 @@
 import React from "react";
 import "./ModalContent.css";
+import Button from "../../ButtonComponent/Button";
 
 export function ModalContent({ HidingTheButton }) {
   const Hide = () => {
@@ -22,7 +23,7 @@ export function ModalContent({ HidingTheButton }) {
             <p>For both sides.</p>
           </body>
           <footer className="click-button">
-            <button onClick={Hide}>Close</button>
+            <Button onClick={Hide}>Close</Button>
           </footer>
         </div>
       </div>
