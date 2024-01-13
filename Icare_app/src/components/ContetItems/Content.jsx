@@ -10,25 +10,34 @@ function Content() {
   const [showJoinUsModal, setShowJoinUsModal] = useState(false);
 
   const [showOurAgenda, setShowOurAgenda] = useState(false);
+  const [showOurLocations, setShowOurLocations] = useState(false);
+
   const handleOurAgenda = () => {
     setShowOurAgenda(!showOurAgenda);
   };
   const handleJoinUsModal = () => {
     setShowJoinUsModal(!showJoinUsModal);
   };
-
+  const handleOurLocations = () => {
+    setShowOurLocations(!showOurLocations);
+  };
   return (
     <div>
       {showJoinUsModal ? <Modal HidingTheForm={handleJoinUsModal} /> : null}
       {showOurAgenda ? (
         <ModalContent HidingTheButton={handleOurAgenda} />
       ) : null}
+      {showOurLocations ? (
+        <ModalContent HidingTheButton={handleOurLocations} />
+      ) : null}
       <div className="grid-container">
         <div className="agenda">
           <ContentItem showModal={handleOurAgenda}> Our Agenda</ContentItem>
         </div>
         <div className="location">
-          <ContentItem>Our Locations</ContentItem>
+          <ContentItem showModal={handleOurLocations}>
+            Our Locations
+          </ContentItem>
         </div>
         <div className="our-clients">
           <ContentItem>Our Clients</ContentItem>
