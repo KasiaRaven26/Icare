@@ -1,7 +1,7 @@
 .languages {
   display: flex;
   align-items: center;
-  width: 240px;
+  width: 300px;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 30px;
@@ -21,18 +21,19 @@
   text-align: center;
   text-decoration: none;
   color: rgb(0, 4, 4);
-  font-weight: 600;
-  background: rgb(186, 181, 181);
+  font-weight: 500;
+  background: rgb(188, 176, 176);
   border-radius: 50%;
-  width: 70px;
+  width: 100px;
   height: 45px;
+  border: 0.15px solid grey;
 }
 
 .line {
   height: 200px;
-  width: 3px;
+  width: 2px;
   background: white;
-  margin-bottom: -3px;
+  margin-bottom: 6px;
 }
 
 .de .line {

@@ -19,21 +19,21 @@ export function OurLocationsModal({ HidingTheButton }) {
               <div className="language de">
                 <div className="line"></div>
                 <a className="button" href="/de">
-                  DE
+                  Germany
                 </a>
               </div>
 
               <div className="language it">
                 <div className="line"></div>
                 <a className="button" href="/it">
-                  IT
+                  Italy
                 </a>
               </div>
 
               <div className="language nl">
                 <div className="line"></div>
                 <a className="button" href="/nl">
-                  NL
+                  Netherlands
                 </a>
               </div>
             </div>
