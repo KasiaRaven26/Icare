@@ -4,20 +4,20 @@ import { Header } from "../Header";
 import { Footer } from "../Footer";
 import carer from "../../components/ContetItems/carer.jpg";
 import { useState } from "react";
-import { Login } from "../login/Login"
+import { Login } from "../login/Login";
+import { OurLocationsModal } from "../Modal/OurLocationsModal";
 
 function HomePage() {
   const [showButtons, setShowButtons] = useState(true);
-  const [showLogin, setShowLogin] = useState(false)
-
+  const [showLogin, setShowLogin] = useState(false);
 
   const buttonTrigger = (result) => {
     setShowButtons(result);
   };
 
   const handleShowLogin = () => {
-    setShowLogin(!showLogin)
-  }
+    setShowLogin(!showLogin);
+  };
 
   const myStyle = {
     backgroundImage: `url(${carer})`,
@@ -28,9 +28,7 @@ function HomePage() {
   return (
     <div style={myStyle}>
       <div>
-        <div>
-         {showLogin ? <Login closeModal={handleShowLogin}/> : null} 
-        </div>
+        <div>{showLogin ? <Login closeModal={handleShowLogin} /> : null}</div>
       </div>
       <div className="Header">
         <Header handleShowLogin={handleShowLogin} />

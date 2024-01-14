@@ -13,7 +13,7 @@ code {
 }
 
 .click-button {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -76,7 +76,7 @@ code {
 .control {
   margin-bottom: 0.75rem;
   font-size: 14px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
