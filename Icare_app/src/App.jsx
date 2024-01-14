@@ -6,12 +6,18 @@ import { Modal } from "./components/Modal/Modal";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="/car" element={<Modal />}/>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <div>Header</div>
+      <div>SideBar</div>
+      <div>Content</div>
+      <div>Footer</div>
+    </div>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<HomePage />}/>
+    //     <Route path="/car" element={<Modal />}/>
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
