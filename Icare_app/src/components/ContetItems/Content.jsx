@@ -5,6 +5,9 @@ import "./Content.css";
 import { useState } from "react";
 import { Modal } from "../Modal/Modal";
 import { ModalContent } from "../Modal/ModalContent";
+import { OurLocationsModal } from "../Modal/OurLocationsModal";
+import { OurCaregiversModal } from "../Modal/OurCaregiversModal";
+import { OurClientsModal } from "../Modal/OurClients";
 
 function Content() {
   const [showJoinUsModal, setShowJoinUsModal] = useState(false);
@@ -36,13 +39,13 @@ function Content() {
         <ModalContent HidingTheButton={handleOurAgenda} />
       ) : null}
       {showOurLocations ? (
-        <ModalContent HidingTheButton={handleOurLocations} />
+        <OurLocationsModal HidingTheButton={handleOurLocations} />
       ) : null}
       {showOurCaregivers ? (
-        <ModalContent HidingTheButton={handleOurCaregivers} />
+        <OurCaregiversModal HidingTheButton={handleOurCaregivers} />
       ) : null}
       {showOurClients ? (
-        <ModalContent HidingTheButton={handleOurClients} />
+        <OurClientsModal HidingTheButton={handleOurClients} />
       ) : null}
       <div className="grid-container">
         <div className="agenda">
