@@ -1,79 +1,107 @@
-    @media screen and (max-width: 2000px) {
+    @media screen and (max-width: 2500px) {
         .container {
-            background-color: blue;
-            color: white;
+            display: grid;
             height: 1000px;
-            border: 3px solid black;
-            position: relative;
-            min-height: 100px;
+            grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+            grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
         }
 
         .header {
-            height: 10%;
-            background-color: rgb(39, 39, 19);
-        
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
         } 
         
         .footer {
-            height: 10%;
-            background-color: #3f3f02;
-            bottom: auto;
+            grid-row: 5;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
         }
         
         .side-bar {
-            display: inline-block;
-            height: 100%;
-            background-color: rgb(54, 54, 136);
-            width: 15%;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            grid-column: 1;
+            border: 1px solid black;
         }
         .content {
-            display: inline-block;
-            height: 100%;
-            background-color: rgb(0, 136, 255);
-            width: 85%;
+            grid-row-start: 2;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            
         }
-        .side-bar-content-container {
-            height: 80%;
+        .content-grid-container {
             width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .personal-details {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            margin: 40px;
+        }
+        .my-messages {
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin: 40px;
+        }
+        .contracts {
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            margin: 40px;
         }
     }
 
     @media screen and (max-width: 600px) {
 
         .container {
-            background-color: rgb(128, 0, 117);
-            color: white;
-            height: 360px;
-            max-width: 600px;
-            min-height: 1000px;
-            }
+            display: grid;
+            height: 1000px;
+            grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
 
-            .header {
-                height: 10%;
-                background-color: rgb(39, 39, 19);
-            
-            } 
-            
-            .footer {
-                height: 10%;
-                background-color: #3f3f02;
-                bottom: auto;
-            }
-            
-            .side-bar {
-                display: inline-block;
-                height: 100%;
-                background-color: rgb(54, 54, 136);
-                width: 40%;
-            }
-            .content {
-                display: inline-block;
-                height: 100%;
-                background-color: rgb(0, 136, 255);
-                width: 60%;
-            }
-            .side-bar-content-container {
-                height: 80%;
-                width: 100%;
-            }
-         }
+        .header {
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
+        } 
+        
+        .footer {
+            grid-row: 5;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
+        }
+        
+        .side-bar {
+            grid-row-start: 1;
+            grid-row-end: 6;
+            grid-column: 1;
+            border: 1px solid black;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            grid-row-start: 2;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            border: 1px solid black;
+        }
+ 
+        }
+
