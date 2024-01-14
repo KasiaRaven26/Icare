@@ -1,5 +1,6 @@
 import React from "react";
 import "./ModalContent.css";
+import "./OurLocationsModal.css";
 
 export function OurLocationsModal({ HidingTheButton }) {
   const Hide = () => {
@@ -14,7 +15,28 @@ export function OurLocationsModal({ HidingTheButton }) {
             <h1 className="highlight"> OUR LOCATIONS</h1>
           </header>
           <body>
-            <p>Italy The Netherlands Germany</p>
+            <div className="languages">
+              <div className="language de">
+                <div className="line"></div>
+                <a className="button" href="/de">
+                  DE
+                </a>
+              </div>
+
+              <div className="language it">
+                <div className="line"></div>
+                <a className="button" href="/it">
+                  IT
+                </a>
+              </div>
+
+              <div className="language nl">
+                <div className="line"></div>
+                <a className="button" href="/nl">
+                  NL
+                </a>
+              </div>
+            </div>
           </body>
           <footer className="click-button">
             <button onClick={Hide}>Close</button>
