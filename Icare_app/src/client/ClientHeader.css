@@ -1,0 +1,31 @@
+.client-header-container {
+    height: 100%;
+    position: relative;
+
+    /* display: flex; */
+}
+
+.title {
+    display: inline-block;
+    height: 100%;
+    margin-left: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+.icon {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    border-left: 1px solid black;
+    right: 0px;
+    text-align: center;
+    line-height: 100px;
+    
+    
+}
+.icare {
+display: inline;
+
+}
+

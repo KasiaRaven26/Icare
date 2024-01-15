@@ -30,7 +30,7 @@ export function Login(props) {
         element.Password == loginDetails.password
       ) {
         props.closeModal();
-        navigate("/");
+        navigate("/client");
       } else {
         setLoginSuccess(false);
       }
