@@ -9,7 +9,7 @@ export function Header( props ) {
   
   return (
     <div>
-      <img className="logo" src={logo} alt="Logo" />
+      {/* <img className="logo" src={logo} alt="Logo" /> */}
       <button onClick={clickEvent}>Login</button>
       <button>Change Language</button>
     </div>
