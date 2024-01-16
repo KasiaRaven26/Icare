@@ -1,0 +1,15 @@
+.image-div {
+    width: 50%;
+}
+.link-div {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    right: 40px;
+    top: 60px;
+    margin: auto;
+}
+
+.link-div > a {
+    margin-left: 50px;
+}

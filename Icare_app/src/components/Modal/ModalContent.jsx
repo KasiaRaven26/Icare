@@ -14,14 +14,14 @@ export function ModalContent({ HidingTheButton }) {
           <header>
             <h1 className="highlight"> OUR AGENDA</h1>
           </header>
-          <body>
+          <div>
             <p>
               Our platform has been created to connect clients with caregivers
               in The Netherlands, Germany and Italy.
             </p>
             <p>On the private basis with full safety.</p>
             <p className="border-radius">For both sides.</p>
-          </body>
+          </div>
           <footer className="click-button">
             <Button onClick={Hide}>Close</Button>
           </footer>
