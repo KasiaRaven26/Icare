@@ -32,8 +32,13 @@ function Content() {
   const handleOurClients = () => {
     setShowOurClients(!showOurClients);
   };
+
+  const myStyle = {
+    backgroundImage: `url(${carer})`,
+  };
+
   return (
-    <div>
+    <div id="outer-container" style={myStyle}>
       {showJoinUsModal ? <Modal HidingTheForm={handleJoinUsModal} /> : null}
       {showOurAgenda ? (
         <ModalContent HidingTheButton={handleOurAgenda} />

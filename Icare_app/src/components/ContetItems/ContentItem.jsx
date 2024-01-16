@@ -11,8 +11,8 @@ export function ContentItem(props) {
   };
 
   return (
-    <div className="join-us-box" onClick={Adam}>
+    <p className="join-us-box" onClick={Adam}>
       {props.children}
-    </div>
+    </p>
   );
 }
