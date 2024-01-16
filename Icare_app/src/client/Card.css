@@ -11,7 +11,7 @@
     background-color:#eefbff;
     border: 3px solid rgb(50, 81, 100);
   }
-h1 {
+.h1 {
     text-align: center;
         /* display: inline-block;
     position: relative; */
@@ -19,7 +19,7 @@ h1 {
     text-decoration: none;
     cursor: pointer;
 }
-a::after {
+.a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -33,17 +33,17 @@ a::after {
     transition: transform 0.25s ease-out;
     cursor: pointer;
   }
-  a:hover::after {
+  .a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  a {
+  .a {
     display: inline-block;
     position: relative;
     color: #0087ca;
     text-decoration: none;
   }
-  a:hover {
+  .a:hover {
 
     color: #006394;
 
