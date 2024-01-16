@@ -6,6 +6,7 @@ import ClientSideBar from "./ClientSideBar";
 import ClientFooter from "./ClientFooter";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { GoChevronDown, GoChevronLeft } from "react-icons/go";
 
 const ClientHomePage = () => {
   // return (
@@ -51,5 +52,6 @@ const ClientHomePage = () => {
     </div>
   );
 };
+
 
 export default ClientHomePage;
