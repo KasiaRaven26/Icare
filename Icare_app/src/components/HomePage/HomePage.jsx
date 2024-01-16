@@ -1,11 +1,9 @@
-import "./HomePage.css";
 import Content from "../ContetItems/Content";
 import { Header } from "../Header";
 import { Footer } from "../Footer";
-import carer from "../../components/ContetItems/carer.jpg";
+import styles from "./Homepage.module.css"
 import { useState } from "react";
 import { Login } from "../login/Login";
-import { OurLocationsModal } from "../Modal/OurLocationsModal";
 
 function HomePage() {
   const [showButtons, setShowButtons] = useState(true);
@@ -19,25 +17,20 @@ function HomePage() {
     setShowLogin(!showLogin);
   };
 
-  const myStyle = {
-    backgroundImage: `url(${carer})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
 
   return (
-    <div style={myStyle}>
+    <div className={styles.pageRootGrid}>
       <div>
         <div>{showLogin ? <Login closeModal={handleShowLogin} /> : null}</div>
       </div>
-      <div className="Header">
-        <Header handleShowLogin={handleShowLogin} />
-      </div>
-      <div>
-        <Content showButtons={showButtons} />
-      </div>
-      <div className="footer">
-        <Footer anotherResult={buttonTrigger} />
+      <div className={styles.header}>
+        <Header/> 
+      </div >
+      <div className={styles.content}>
+         <Content /> 
+      </div >
+      <div className={styles.footer}>
+         <Footer anotherResult={buttonTrigger} />
       </div>
     </div>
   );

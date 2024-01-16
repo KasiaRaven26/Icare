@@ -11,7 +11,6 @@ import { OurClientsModal } from "../Modal/OurClients";
 
 function Content() {
   const [showJoinUsModal, setShowJoinUsModal] = useState(false);
-
   const [showOurAgenda, setShowOurAgenda] = useState(false);
   const [showOurLocations, setShowOurLocations] = useState(false);
   const [showOurCaregivers, setShowOurCaregivers] = useState(false);
@@ -32,8 +31,13 @@ function Content() {
   const handleOurClients = () => {
     setShowOurClients(!showOurClients);
   };
+
+  const myStyle = {
+    backgroundImage: `url(${carer})`,
+  };
+
   return (
-    <div>
+    <div id="outer-container" style={myStyle}>
       {showJoinUsModal ? <Modal HidingTheForm={handleJoinUsModal} /> : null}
       {showOurAgenda ? (
         <ModalContent HidingTheButton={handleOurAgenda} />

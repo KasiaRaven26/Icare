@@ -1,6 +1,5 @@
-import "./ContentItem.css";
+import styles from "./ContentItem.module.css";
 import { useState } from "react";
-import { Modal } from "../Modal/Modal";
 
 export function ContentItem(props) {
   const [showModal, setShowModal] = useState(false);
@@ -11,8 +10,8 @@ export function ContentItem(props) {
   };
 
   return (
-    <div className="join-us-box" onClick={Adam}>
+    <p className={styles.pill} onClick={Adam}>
       {props.children}
-    </div>
+    </p>
   );
 }
