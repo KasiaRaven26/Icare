@@ -1,5 +1,6 @@
 import "./ClientContent.css";
 import Card from "./Card";
+import { GoChevronDown, GoChevronLeft } from "react-icons/go";
 
 const ClientContent = () => {
   return (
@@ -15,6 +16,14 @@ const ClientContent = () => {
       </div>
       <div className="my-history">
         <Card>Diary</Card>
+      </div>
+      <div className="something-else">
+        <Card>Something Else</Card>
+      </div>
+      <div className="side-bar-client">
+        <span>
+          <GoChevronLeft />
+        </span>
       </div>
     </div>
   );
