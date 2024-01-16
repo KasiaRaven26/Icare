@@ -1,4 +1,4 @@
-import "./ContentItem.css";
+import styles from "./ContentItem.module.css";
 import { useState } from "react";
 
 export function ContentItem(props) {
@@ -10,7 +10,7 @@ export function ContentItem(props) {
   };
 
   return (
-    <p className="join-us-box" onClick={Adam}>
+    <p className={styles.pill} onClick={Adam}>
       {props.children}
     </p>
   );
