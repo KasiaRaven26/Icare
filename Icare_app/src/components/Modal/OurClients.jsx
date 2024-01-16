@@ -13,9 +13,6 @@ export function OurClientsModal({ HidingTheButton }) {
           <header>
             <h1 className="highlight"> OUR CLIENTS</h1>
           </header>
-          <body>
-            <p></p>
-          </body>
           <footer className="click-button">
             <button onClick={Hide}>Close</button>
           </footer>

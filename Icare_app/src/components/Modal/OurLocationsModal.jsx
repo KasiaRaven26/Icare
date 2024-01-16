@@ -14,7 +14,7 @@ export function OurLocationsModal({ HidingTheButton }) {
           <header>
             <h1 className="highlight"> OUR LOCATIONS</h1>
           </header>
-          <body>
+          <div>
             <div className="languages">
               <div className="language de">
                 <div className="line"></div>
@@ -37,7 +37,7 @@ export function OurLocationsModal({ HidingTheButton }) {
                 </a>
               </div>
             </div>
-          </body>
+          </div>
           <footer className="click-button">
             <button onClick={Hide}>Close</button>
           </footer>

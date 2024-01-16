@@ -13,7 +13,7 @@ export function Modal({ HidingTheForm }) {
           <header>
             <h1 className="highlight">SUBMIT FORM</h1>
           </header>
-          <body>
+          <div>
             <form>
               <div className="control">
                 <label>E-mail address</label>
@@ -36,7 +36,7 @@ export function Modal({ HidingTheForm }) {
                 <input type="text" />
               </div>
             </form>
-          </body>
+          </div>
           <footer className="click-button">
             <button onClick={handleClick}>Close</button>
           </footer>
