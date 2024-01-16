@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import carer from "./carer.jpg";
 import { ContentItem } from "./ContentItem";
-// import "./Content.css";
+import "./Content.css";
 import { useState } from "react";
 import { Modal } from "../Modal/Modal";
 import { ModalContent } from "../Modal/ModalContent";
