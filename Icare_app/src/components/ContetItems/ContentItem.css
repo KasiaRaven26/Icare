@@ -3,8 +3,7 @@
   border-radius: 200px;
   padding: 20px;
   width: 200px;
-  height: auto;
-  margin: 0 auto;
+  margin: auto;
   cursor: pointer;
   will-change: filter;
   transition: filter 300ms;

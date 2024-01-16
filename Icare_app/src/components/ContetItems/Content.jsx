@@ -11,7 +11,6 @@ import { OurClientsModal } from "../Modal/OurClients";
 
 function Content() {
   const [showJoinUsModal, setShowJoinUsModal] = useState(false);
-
   const [showOurAgenda, setShowOurAgenda] = useState(false);
   const [showOurLocations, setShowOurLocations] = useState(false);
   const [showOurCaregivers, setShowOurCaregivers] = useState(false);
