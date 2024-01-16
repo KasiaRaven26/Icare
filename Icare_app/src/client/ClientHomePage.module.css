@@ -1,5 +1,5 @@
 @media screen and (max-width: 2500px) {
-    .container {
+    /* .container {
         margin: 10px;
         display: grid;
         height: 1500px;
@@ -73,6 +73,36 @@
         grid-column-start: 3;
         grid-column-end: 5;
         margin: 40px;
+    } */
+
+    
+
+.pageRootGrid {
+    display: grid;
+    grid-template-rows: 200px 1fr 100px;
+    height: 100%;
+    
+    }
+    
+    .header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 3px solid black;
+    padding: 20px;
+    background-color: rgba(115, 178, 178, 0.748);
+    }
+    
+    .content {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      background-color: rgba(115, 178, 178, 0.748);
+    }
+    
+    .footer {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      background-color: rgba(115, 178, 178, 0.748);
+      border-top: 3px solid black;
     }
 }
 

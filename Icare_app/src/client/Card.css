@@ -4,12 +4,12 @@
     border-radius: 60px;
     height: 100%;
     width: 100%;
-    border: 3px solid rgb(92, 165, 214);
+    border: 3px solid rgb(91, 119, 137);
 
 }
 .card:hover {
-    background-color:#eefbff;
-    border: 3px solid rgb(50, 81, 100);
+    background-color:#c9e6ef;
+    border: 3px solid rgb(206, 228, 241);
   }
 .h1 {
     text-align: center;

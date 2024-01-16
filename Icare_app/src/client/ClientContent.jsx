@@ -16,6 +16,10 @@ const ClientContent = () => {
       <div className="my-history">
         <Card>Diary</Card>
       </div>
+      <div className="something-else">
+        <Card>Something Else</Card>
+      </div>
+      <div className="side-bar-client"></div>
     </div>
   );
 };
