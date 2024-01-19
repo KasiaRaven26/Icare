@@ -1,5 +1,6 @@
 .footer {
   border-top: 3px solid black;
+  font-family: monospace;
   display: flex;
   justify-content: center;
   padding: 20px;
