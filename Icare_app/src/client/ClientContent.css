@@ -69,6 +69,8 @@
         grid-column-end: 4;
         margin: 40px;
     }
+   
+
     .something-else {
         grid-row-start: 3;
         grid-row-end: 5;

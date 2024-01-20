@@ -17,13 +17,14 @@ const ClientContent = () => {
         <Card>Personal details</Card>
       </div>
       <div className="my-messages">
-        <Card>Messages</Card>
+        <Card> Your Messages</Card>
       </div>
+    
       <div className="my-history">
-        <Card>Diary</Card>
+        <Card>Cover letter</Card>
       </div>
       <div className="something-else">
-        <Card>Something Else</Card>
+        <Card>Resume</Card>
       </div>
       {sidebarOpen ? (
         <div onClick={handleSidebar} className="side-bar-client">
