@@ -61,3 +61,22 @@
     right: 0;
     top: 30%;
   }
+
+  .questionMark {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  .questionMark .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(115, 178, 178, 0.748);;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  }
+  .questionMark:hover .tooltiptext {
+    visibility: visible;
+  }
