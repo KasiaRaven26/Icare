@@ -5,7 +5,7 @@ const ClientSideBar = () => {
 
 
   return (
-    <div>
+    <div style={{display: "flex", justifyContent:"flex-end"}}>
       <GoChevronRight size={50} />
     </div>
   );

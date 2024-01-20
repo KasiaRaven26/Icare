@@ -4,13 +4,12 @@ import Card from "./Card";
 import ClientSideBar from "./ClientSideBar";
 
 const ClientContent = () => {
-
-  // const [sidebarOpen, setSideBarOpen] = useState(false);
-
+  const [sidebarOpen, setSideBarOpen] = useState(false);
 
   const handleSidebar = () => {
-    console.log("Open or closed");
-  }
+    console.log(sidebarOpen);
+    setSideBarOpen(!sidebarOpen);
+  };
 
   return (
     <div className="content-grid-container">
@@ -26,10 +25,15 @@ const ClientContent = () => {
       <div className="something-else">
         <Card>Something Else</Card>
       </div>
-      <div  onClick={handleSidebar} className="side-bar-client">
-        {/* {sidebarOpen ? <ClientSideBar /> : <ClientSideBarClosed />} */}
-        <ClientSideBar/>
-      </div>
+      {sidebarOpen ? (
+        <div onClick={handleSidebar} className="side-bar-client">
+          <ClientSideBar />
+        </div>
+      ) : (
+        <div onClick={handleSidebar} className="side-bar-client-open">
+          <ClientSideBar />
+        </div>
+      )}
     </div>
   );
 };
