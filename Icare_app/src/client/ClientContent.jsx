@@ -9,16 +9,14 @@ const ClientContent = () => {
         <Card>Personal details</Card>
       </div>
       <div className="my-messages">
-        <Card>Messages</Card>
+        <Card> Your Messages</Card>
       </div>
-      <div className="contracts">
-        <Card>Contracts</Card>
-      </div>
+    
       <div className="my-history">
-        <Card>Diary</Card>
+        <Card>Cover letter</Card>
       </div>
       <div className="something-else">
-        <Card>Something Else</Card>
+        <Card>Resume</Card>
       </div>
       <div className="side-bar-client">
         <GoChevronRight size={50} />
