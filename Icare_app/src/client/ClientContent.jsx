@@ -1,6 +1,6 @@
 import "./ClientContent.css";
 import Card from "./Card";
-import { GoChevronRight } from "react-icons/go";
+import ClientSideBar from "./ClientSideBar";
 
 const ClientContent = () => {
   return (
@@ -18,7 +18,7 @@ const ClientContent = () => {
         <Card>Something Else</Card>
       </div>
       <div className="side-bar-client">
-        <GoChevronRight size={50} />
+        <ClientSideBar />
       </div>
     </div>
   );

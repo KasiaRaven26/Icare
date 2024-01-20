@@ -1,12 +1,9 @@
-import "./ClientSideBar.css";
-import ClientHeader from "./ClientHeader";
-
-import ClientContent from "./ClientContent";
+import { GoChevronRight } from "react-icons/go";
 
 const ClientSideBar = () => {
   return (
-    <div style={{ height: "185px", "border-bottom": "3px solid black " }}>
-      ICON
+    <div>
+      <GoChevronRight size={50} />
     </div>
   );
 };
