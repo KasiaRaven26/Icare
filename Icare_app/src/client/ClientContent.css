@@ -28,6 +28,7 @@
         grid-column-start: 1;
         grid-column-end: 1;
         border: 1px solid black;
+
     }
     .content {
         grid-row-start: 2;
@@ -92,6 +93,9 @@
         border-right: 3px solid black ;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
