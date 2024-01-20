@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "./I_care.jpg";
 import "./Header.css";
 import { FaRegMessage } from "react-icons/fa6";

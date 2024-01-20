@@ -1,10 +1,19 @@
-import "./ClientHeader.css";
+import logo from "../components/I_care.jpg";
+import styles from "./ClientHeader.module.css"
+import { FaRegMessage } from "react-icons/fa6";
+import { RiAccountBoxLine } from "react-icons/ri";
+
 
 const ClientHeader = () => {
   return (
-    <div className="client-header-container">
-      <div className="title">ICare</div>
-      <div className="icon">Icon</div>
+    <div style={{ position: "relative" }}>
+      <div className={styles.imageDiv}>
+        <img className="logo" src={logo} alt="Logo" />
+      </div>
+      <div className={styles.linkDiv}>
+        <FaRegMessage style={{"margin" : "8 40 0 0"}} size={50}></FaRegMessage>
+        <RiAccountBoxLine size={60}/>
+      </div>
     </div>
   );
 };
