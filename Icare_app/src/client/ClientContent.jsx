@@ -1,8 +1,16 @@
+import { useState } from "react";
 import "./ClientContent.css";
 import Card from "./Card";
-import { GoChevronRight } from "react-icons/go";
+import ClientSideBar from "./ClientSideBar";
 
 const ClientContent = () => {
+  const [sidebarOpen, setSideBarOpen] = useState(false);
+
+  const handleSidebar = () => {
+    console.log(sidebarOpen);
+    setSideBarOpen(!sidebarOpen);
+  };
+
   return (
     <div className="content-grid-container">
       <div className="personal-details">
@@ -18,9 +26,15 @@ const ClientContent = () => {
       <div className="something-else">
         <Card>Resume</Card>
       </div>
-      <div className="side-bar-client">
-        <GoChevronRight size={50} />
-      </div>
+      {sidebarOpen ? (
+        <div onClick={handleSidebar} className="side-bar-client">
+          <ClientSideBar />
+        </div>
+      ) : (
+        <div onClick={handleSidebar} className="side-bar-client-open">
+          <ClientSideBar />
+        </div>
+      )}
     </div>
   );
 };
