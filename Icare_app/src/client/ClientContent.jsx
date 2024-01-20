@@ -1,8 +1,17 @@
+import { useState } from "react";
 import "./ClientContent.css";
 import Card from "./Card";
 import ClientSideBar from "./ClientSideBar";
 
 const ClientContent = () => {
+
+  // const [sidebarOpen, setSideBarOpen] = useState(false);
+
+
+  const handleSidebar = () => {
+    console.log("Open or closed");
+  }
+
   return (
     <div className="content-grid-container">
       <div className="personal-details">
@@ -17,8 +26,9 @@ const ClientContent = () => {
       <div className="something-else">
         <Card>Something Else</Card>
       </div>
-      <div className="side-bar-client">
-        <ClientSideBar />
+      <div  onClick={handleSidebar} className="side-bar-client">
+        {/* {sidebarOpen ? <ClientSideBar /> : <ClientSideBarClosed />} */}
+        <ClientSideBar/>
       </div>
     </div>
   );
