@@ -55,6 +55,16 @@
         grid-column-end: 5;
         margin: 40px;
     }
+
+    .personal-details-closed {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin: 40px;
+    }
+
+
     .my-history {
         grid-row-start: 1;
         grid-row-end: 3;
@@ -62,6 +72,14 @@
         grid-column-end: 5;
         margin: 40px;
     }
+    .my-history-open {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        margin: 40px;
+    }
+
     .my-messages {
         grid-row-start: 3;
         grid-row-end: 5;

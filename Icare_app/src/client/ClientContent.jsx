@@ -5,23 +5,29 @@ import ClientSideBar from "./ClientSideBar";
 
 const ClientContent = () => {
   const [sidebarOpen, setSideBarOpen] = useState(false);
+  const [toggleCards, setToggeleCards] = useState(false);
 
   const handleSidebar = () => {
     console.log(sidebarOpen);
     setSideBarOpen(!sidebarOpen);
   };
 
+  const handleToggleCards = () => {
+    console.log(toggleCards)
+    setToggeleCards(!toggleCards)
+  }
+
   return (
     <div className="content-grid-container">
-      <div className="personal-details">
+      <div onClick={handleToggleCards} className={toggleCards ? "personal-details" : "personal-details-closed"}>
         <Card>Personal details</Card>
       </div>
       <div className="my-messages">
         <Card> Your Messages</Card>
       </div>
     
-      <div className="my-history">
-        <Card>Cover letter</Card>
+      <div onClick={handleToggleCards} className={toggleCards ? "my-history" : "my-history-open"}>
+        <Card >Cover letter</Card>
       </div>
       <div className="something-else">
         <Card>Resume</Card>
