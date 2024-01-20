@@ -69,14 +69,6 @@
         grid-column-end: 4;
         margin: 40px;
     }
-    .contracts {
-        grid-row-start: 3;
-        grid-row-end: 5;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        margin: 40px;
-        z-index: 1;
-    }
     .something-else {
         grid-row-start: 3;
         grid-row-end: 5;
