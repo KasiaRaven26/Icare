@@ -8,12 +8,10 @@ const ClientContent = () => {
   const [toggleCards, setToggeleCards] = useState(false);
 
   const handleSidebar = () => {
-    console.log(sidebarOpen);
     setSideBarOpen(!sidebarOpen);
   };
 
   const handleToggleCards = () => {
-    console.log(toggleCards);
     setToggeleCards(!toggleCards);
   };
 
@@ -51,7 +49,7 @@ const ClientContent = () => {
             <Card> Your Messages</Card>
           </div>
 
-          <div className="something-else">
+          <div className="resume">
             <Card>Resume</Card>
           </div>
         </div>
