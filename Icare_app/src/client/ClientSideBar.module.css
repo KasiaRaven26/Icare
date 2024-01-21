@@ -8,7 +8,7 @@
     width: 250px;
     z-index: 1;
     position: relative;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .containerClosed {
     height: 100%;
@@ -19,7 +19,7 @@
     width: 50px;
     z-index: 1;
     position: relative ;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .side-bar-client-open {
@@ -33,7 +33,7 @@
     flex-direction: column;
     width: 250px;
     z-index: 1;
-    transition: all 1s;
+    transition: all 0.5s;
     padding: 20px;
 }
 
@@ -48,7 +48,7 @@
     justify-content: center;
     flex-direction: column;
     width: 20px;
-    transition: all 1s;
+    transition: all 0.5s;
     z-index: 1;
     /* padding: 20px; */
 }
