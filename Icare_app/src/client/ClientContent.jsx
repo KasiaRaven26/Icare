@@ -17,7 +17,7 @@ const ClientContent = () => {
 
   return (
     <div className="content-grid-container">
-      {sidebarOpen ? (
+      {/* {sidebarOpen ? (
         <div onClick={handleSidebar} className="side-bar-client-open">
           <ClientSideBar />
         </div>
@@ -25,7 +25,12 @@ const ClientContent = () => {
         <div onClick={handleSidebar} className="side-bar-client">
           <ClientSideBar />
         </div>
-      )}
+      )} */}
+      <div onClick={handleSidebar} className="client-side-bar">
+      <ClientSideBar sideBarOpen={sidebarOpen}/>
+
+      </div>
+      
       <div className="card-container">
         <div className="card-container-top">
           <div
