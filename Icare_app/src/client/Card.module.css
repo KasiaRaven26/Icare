@@ -7,8 +7,7 @@
 
 }
 .card:hover {
-    background-color:#c9e6ef;
-    border: 3px solid rgb(206, 228, 241);
+      border: 3px solid rgb(206, 228, 241);
   }
 .header {
     text-align: center;
