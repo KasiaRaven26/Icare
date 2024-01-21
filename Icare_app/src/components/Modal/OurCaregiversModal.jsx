@@ -1,5 +1,7 @@
 import React from "react";
 import "./ModalContent.css";
+import Button from "../../ButtonComponent/Button";
+
 
 export function OurCaregiversModal({ HidingTheButton }) {
   const Hide = () => {
@@ -16,7 +18,7 @@ export function OurCaregiversModal({ HidingTheButton }) {
           <p></p>
           <body></body>
           <footer className="click-button">
-            <button onClick={Hide}>Close</button>
+             <Button onClick={Hide}>Close</Button>
           </footer>
         </div>
       </div>

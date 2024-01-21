@@ -1,5 +1,6 @@
 import React from "react";
 import "./ModalContent.css";
+import Button from "../../ButtonComponent/Button";
 
 export function OurClientsModal({ HidingTheButton }) {
   const Hide = () => {
@@ -14,7 +15,7 @@ export function OurClientsModal({ HidingTheButton }) {
             <h1 className="highlight"> OUR CLIENTS</h1>
           </header>
           <footer className="click-button">
-            <button onClick={Hide}>Close</button>
+          <Button onClick={Hide}>Close</Button>
           </footer>
         </div>
       </div>
