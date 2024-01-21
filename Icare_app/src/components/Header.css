@@ -11,13 +11,13 @@
 }
 
 .link-div > a {
-  margin-left: 400px;
-  padding-top: 10px ;
+  margin-left: 450px;
+  padding-top: 15px ;
   font-family:monospace;
   text-decoration:none;
-  color: rgba(215, 223, 222, 0.677);
-  border: 3.5px solid;
-  padding: 10px;
-  border-radius: 70% ; 
+  color: rgba(43, 134, 155, 0.927);
+  border: 3px solid;
+  padding: 15px;
+  border-radius: 60% ; 
 }
 
