@@ -3,7 +3,6 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.2600);
     border-radius: 60px;
     height: 100%;
-    width: 100%;
     border: 3px solid rgb(91, 119, 137);
 
 }
@@ -13,8 +12,6 @@
   }
 .header {
     text-align: center;
-        /* display: inline-block;
-    position: relative; */
     height: 10%;
     color: #0087ca;
     text-decoration: none;
