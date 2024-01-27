@@ -10,10 +10,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/client">
           <Route index={true} element={<ClientHomePage />}></Route>
-          <Route path="personal" element={<HomePage />} />
-          <Route path="cover-letter" element={<HomePage />} />
-          <Route path="your-details" element={<HomePage />} />
-          <Route path="resume" element={<HomePage />} />
+          <Route path="personal" element={<PersonalDetails />} />
+          <Route path="cover-letter" element={<CoverLetter />} />
+          <Route path="your-details" element={<YourDetails />} />
+          <Route path="resume" element={<Resume />} />
         </Route>
       </Routes>
     </BrowserRouter>
