@@ -16,7 +16,7 @@ const Card = (props) => {
         <div className={styles.questionMark}>
           <div style={{position: "relative"}}>
             <span className={styles.tooltiptext}>
-              Here is some information about the tile
+              Here you can insert information about yourself
             </span>
           </div>
         </div>
