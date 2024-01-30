@@ -1,10 +1,12 @@
-.footer {
-  border-top: 3px solid black;
-  font-family: monospace;
+.footer-div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   justify-content: center;
-  padding: 20px;
-  background-color: rgba(115, 178, 178, 0.748);
-  z-index: 2;
-  position: relative;
+  padding-right: 50px;
+  position:relative;
+  color:#e1d3d3;
+  font-size: 18px;
+  margin-top: 5%;
+  text-decoration-line: underline;
+
 }

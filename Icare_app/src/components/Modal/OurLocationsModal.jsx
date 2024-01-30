@@ -1,6 +1,7 @@
 import React from "react";
 import "./ModalContent.css";
 import "./OurLocationsModal.css";
+import Button from "../../ButtonComponent/Button";
 
 export function OurLocationsModal({ HidingTheButton }) {
   const Hide = () => {
@@ -39,7 +40,7 @@ export function OurLocationsModal({ HidingTheButton }) {
             </div>
           </div>
           <footer className="click-button">
-            <button onClick={Hide}>Close</button>
+          <Button onClick={Hide}>Close</Button>
           </footer>
         </div>
       </div>

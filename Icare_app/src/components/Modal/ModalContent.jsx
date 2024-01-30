@@ -2,6 +2,7 @@ import React from "react";
 import "./ModalContent.css";
 import Button from "../../ButtonComponent/Button";
 
+
 export function ModalContent({ HidingTheButton }) {
   const Hide = () => {
     HidingTheButton();

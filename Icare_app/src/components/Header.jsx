@@ -8,7 +8,7 @@ export function Header() {
         <img className="logo" src={logo} alt="Logo" />
       </div>
       <div className="link-div">
-        <a href="./client">Login</a>
+        <a href="./client">login</a>
       </div>
     </div>
   );

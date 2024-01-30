@@ -13,9 +13,9 @@ const ClientHeader = () => {
         </a>
       </div>
       <div className={styles.linkDiv}>
-      <FaSearch style={{ margin: "8 40 0 0" }} size={50}/>
-        <FaRegMessage style={{ margin: "8 40 0 0" }} size={50}></FaRegMessage>
-        <RiAccountBoxLine size={60} />
+      <FaSearch style={{ margin: "8 40 0 0" }} size={40}/>
+        <FaRegMessage style={{ margin: "8 40 0 0" }} size={40}></FaRegMessage>
+        <RiAccountBoxLine size={50} />
       </div>
     </div>
   );
