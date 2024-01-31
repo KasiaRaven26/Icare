@@ -29,6 +29,12 @@
       background-color: rgba(115, 178, 178, 0.748);
       border-top: 3px solid black;
     }
+    .clientGridContainer {
+        width: 100%;
+        display: grid;
+        height: 100%;
+        grid-template-columns: 70px auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
