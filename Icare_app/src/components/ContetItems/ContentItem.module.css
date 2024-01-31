@@ -8,6 +8,12 @@
   background-color: rgba(22, 166, 182, 0.322);
   animation: slide-in-left3 1000ms;
   font-weight: 200;
-}
 
+}
+.pill:hover {
+  border-color: blanchedalmond;
+  border: 3px solid rgba(158, 225, 215, 0.657);
+
+  
+}
 
