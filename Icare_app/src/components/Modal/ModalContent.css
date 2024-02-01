@@ -4,14 +4,16 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   margin: 2rem;
+  margin: 2rem;
   border-width: 1px;
   border-style: outset;
+  border-style: outset;
   text-align: center;
+  border: 0.3px solid rgb(0, 0, 0);
   border: 0.3px solid rgb(0, 0, 0);
   border-radius: 9999px;
   background-color: #3bc6c9;
   color: #010101;
-
 }
 
 /* modal; */
@@ -40,6 +42,7 @@
   visibility: visible;
   transition: 0.5s;
   align-content: center;
+  flex-wrap: wrap;
   flex-wrap: wrap;
 }
 

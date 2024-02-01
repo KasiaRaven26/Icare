@@ -12,9 +12,11 @@
 .header {
     text-align: center;
     height: 10%;
-    color: #0087ca;
+    color: #2faba796;
     text-decoration: none;
     cursor: pointer;
+  
+  
 }
 .link::after {
     content: '';
