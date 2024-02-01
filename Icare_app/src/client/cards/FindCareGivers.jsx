@@ -1,5 +1,5 @@
 import Card from "../Card"
-import styles from "./FindCareGivers.module.css"
+import "./FindCareGivers.css"
 
 
 const FindCareGivers = () => {
