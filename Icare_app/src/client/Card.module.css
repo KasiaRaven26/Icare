@@ -4,7 +4,7 @@
     border-radius: 60px;
     height: 100%;
     border: 3px solid rgb(91, 119, 137);
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .card:hover {
       border: 3px solid rgb(206, 228, 241);
@@ -12,9 +12,11 @@
 .header {
     text-align: center;
     height: 10%;
-    color: #0087ca;
+    color: #2faba796;
     text-decoration: none;
     cursor: pointer;
+  
+  
 }
 .link::after {
     content: '';
