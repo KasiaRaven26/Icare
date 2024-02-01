@@ -13,14 +13,7 @@ const Card = (props) => {
         <div className={styles.iconDiv}>
           <GoChevronLeft size={30} />
         </div>
-        <div className={styles.questionMark}>
-          <div style={{position: "relative"}}>
-            <span className={styles.tooltiptext}>
-              Here you can insert information about yourself
-            </span>
-          </div>
         </div>
-      </div>
     </div>
   );
 };
