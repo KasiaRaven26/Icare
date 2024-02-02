@@ -19,6 +19,12 @@ function App() {
           <Route path="your-details" element={<YourDetails />} />
           <Route path="resume" element={<Resume />} />
         </Route>
+        <Route path="/caregiver">
+          <Route index={true} element={<ClientHomePage />}></Route>
+        <Route path="resume" element={<Resume />} />
+        </Route>
+
+
       </Routes>
     </BrowserRouter>
   );

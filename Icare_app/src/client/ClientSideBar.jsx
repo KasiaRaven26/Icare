@@ -12,7 +12,7 @@ const ClientSideBar = ({ sideBarOpen }) => {
       {sideBarOpen && (
         <div className={styles.containerContent}>
           <a href="/client/your-details"><h3>YOUR DETAILS</h3></a>
-          <a href="/client/cover-letter"><h3>COVER LETTER</h3></a>
+          <a href="/client/cover-letter"><h3>FIND CAREGIVERS </h3></a>
           <a href="/client/your-messages"><h3>YOUR MESSAGES</h3></a>
           <a href="/client/resume"><h3>RESUME</h3></a>
 

@@ -13,6 +13,8 @@ const FindCareGivers = () => {
                         <th>LOCATION</th>
                         <th>EXPERIENCE</th>
                         <th>AVAILABILITY</th>
+                        <th>RESUME</th>
+                        <th>E-MAIL</th>
                     </tr>
                  </thead> 
                  <tbody>
@@ -22,6 +24,8 @@ const FindCareGivers = () => {
                         <td>Poole</td>
                         <td>5 years</td>
                         <td>immediately</td>
+                        <td> <a href= "./caregiver/resume"> view resume</a> </td>
+                        <td>pizzamargherita@gmail.com</td>
                     </tr>
                     <tr>
                         <td>Magdalena Kruk</td>
@@ -29,6 +33,8 @@ const FindCareGivers = () => {
                         <td>Warsaw</td>
                         <td>3 years</td>
                         <td>immediately</td>
+                        <td>-</td>
+                        <td>lena.kruk@gmail.com</td>
                     </tr>
                     <tr>
                         <td>Adam Kirwan</td>
@@ -36,6 +42,8 @@ const FindCareGivers = () => {
                         <td>Bristol</td>
                         <td>1 year</td>
                         <td>immediately</td>
+                        <td> <a href= "./"> view resume </a> </td>
+                        <td>ajkirwan1@yahoo.com</td>
                     </tr>
                      <tr>
                         <td>Kasia Kruk</td>
@@ -43,6 +51,8 @@ const FindCareGivers = () => {
                         <td>Amsterdam</td>
                         <td>2 years</td>
                         <td>never</td>
+                        <td>-</td>
+                        <td>raven2507@gmail.com</td>
                     </tr>
                  </tbody> 
              </table>
