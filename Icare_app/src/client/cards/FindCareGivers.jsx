@@ -5,14 +5,14 @@ import "./FindCareGivers.css"
 const FindCareGivers = () => {
     return (
         <Card> 
-           <table>
+           <table className="styled-table">
                  <thead>
                     <tr>
-                        <th>name</th> 
-                        <th>age</th>
-                        <th>location</th>
-                        <th>experience</th>
-                        <th>availability</th>
+                        <th>NAME</th> 
+                        <th>AGE</th>
+                        <th>LOCATION</th>
+                        <th>EXPERIENCE</th>
+                        <th>AVAILABILITY</th>
                     </tr>
                  </thead> 
                  <tbody>
