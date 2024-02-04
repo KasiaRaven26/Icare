@@ -7,10 +7,10 @@ const Card = (props) => {
   return (
     <div className={styles.card}>
       <h1 className={styles.header}>
-        {props.children}
+
       </h1>
       <div className={styles.content}>
-   
+      {props.children}
         </div>
     </div>
   );
