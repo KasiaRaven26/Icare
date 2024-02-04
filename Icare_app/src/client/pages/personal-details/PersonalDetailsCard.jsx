@@ -4,7 +4,7 @@ import Card from "../../Card"
 
 
 const PersonalDetailsCard = () => {
-    return (<Card> Personal details card</Card>)
+    return (<Card> Personal details </Card>)
         
 
     
