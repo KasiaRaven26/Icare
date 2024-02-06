@@ -25,7 +25,7 @@ const FindCareGivers = () => {
                         <td>5 years</td>
                         <td>immediately</td>
                         <td> <a href= "./caregiver/resume"> view resume</a> </td>
-                        <td>pizzamargherita@gmail.com</td>
+                        <td>margheritak@gmail.com</td>
                     </tr>
                     <tr>
                         <td>Magdalena Kruk</td>
@@ -50,7 +50,7 @@ const FindCareGivers = () => {
                         <td>26</td>
                         <td>Amsterdam</td>
                         <td>2 years</td>
-                        <td>never</td>
+                        <td>immediately</td>
                         <td>-</td>
                         <td>raven2507@gmail.com</td>
                     </tr>
