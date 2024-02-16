@@ -17,5 +17,5 @@ router
   .route("/:id")
   .get(availableCareGiversController.getAvailableCareGiverById)
   .patch(availableCareGiversController.updateAvailableCareGiver)
-  .delete(availableCareGiversController.deleteAvailableCareGiver);
+  // .delete(availableCareGiversController.deleteAvailableCareGiver).restrictTo('admin', 'lead-guide');
 module.exports = router;
