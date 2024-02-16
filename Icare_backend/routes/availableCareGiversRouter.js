@@ -1,4 +1,5 @@
 const express = require("express");
+const authController = require("./../controllers/authController");
 
 const availableCareGiversController = require("./../controllers/availableCareGiversController");
 
@@ -6,7 +7,10 @@ const router = express.Router();
 
 router
   .route("/")
-  .get(availableCareGiversController.getAllAvailableCareGivers)
+  .get(
+    authController.protect,
+    availableCareGiversController.getAllAvailableCareGivers
+  )
   .post(availableCareGiversController.addAvailableCareGiver);
 
 router
