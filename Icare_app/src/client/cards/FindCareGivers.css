@@ -1,22 +1,26 @@
 .styled-table {
+    border-radius: 40px;
     border-collapse:separate;
-    width: 100%;
-    height: 800px;
+    margin:300px 0;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    font-size: 0.9em;
     background-color: rgba(242, 213, 141, 0.121);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-width: 650px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.40);
-    color: #3199abc6;
-    padding: 5px;
+    color: #1cb2cdc6;
+
 
 }
 .styled-table thead tr {
 background-color:rgba(245, 245, 245, 0.939);
-color: rgba(79, 75, 75, 0.869);
-/* font-weight:200; */
-/* font-size:medium; */
+color: rgba(79, 75, 75, 0.745);
+font-weight: 200;
+font-size:smaller;
 text-align:center;
-/* font-size: 0.7em; */
+font-size: 0.7em;
+
 font-stretch:wider;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 text-decoration: underline solid rgba(175, 220, 216, 0.43);
@@ -24,19 +28,16 @@ text-decoration: underline solid rgba(175, 220, 216, 0.43);
 }
 
 .styled-table th {
-
-    padding: 14px 16px;
+   padding: 20px 20px;
 }
 
 .styled-table td {
-    padding: 12px 15px;
-    /* font-size:medium; */
-    /* font-weight: 180; */
+    padding: 10px 10px;
+    font-size:small;
+    font-weight: 100;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-size: 0.6em; */
-    color:#16afa8;
-
-
+    font-size: 0.6em;
+    color:#0ab1a9;
 }
 
 
