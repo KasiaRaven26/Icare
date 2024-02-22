@@ -1,0 +1,16 @@
+[
+    {
+        "_id": 0,
+        "name": "Adam Kirwan",
+        "email": "adam@123.com",
+        "password": "Password123",
+        "role": "care provider"
+    },
+    {
+        "_id": 1,
+        "name": "Kasia Kruk",
+        "email": "kasia@123.com",
+        "password": "Password123",
+        "role": "care giver"
+    }
+]

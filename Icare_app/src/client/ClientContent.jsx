@@ -2,6 +2,12 @@ import { useState } from "react";
 import "./ClientContent.css";
 import Card from "./Card";
 import ClientSideBar from "./ClientSideBar";
+import PersonalDetailsCard from "./pages/personal-details/PersonalDetailsCard";
+import FindCaregiversCard from "./pages/homepage/FindCaregiversCard";
+import YourMessagesCard from "./pages/homepage/YourMessagesCard";
+import ResumeCard from "./pages/homepage/ResumeCard";
+
+
 
 const ClientContent = () => {
   const [sidebarOpen, setSideBarOpen] = useState(false);
@@ -30,23 +36,23 @@ const ClientContent = () => {
               toggleCards ? "personal-details-open" : "personal-details-closed"
             }
           >
-            <Card>Personal details</Card>
+            <PersonalDetailsCard> </PersonalDetailsCard>
           </div>
           <div
             onClick={handleToggleCards}
             className={toggleCards ? "cover-letter-closed" : "cover-letter-open"}
           >
-            <Card>Cover letter</Card>
+          <FindCaregiversCard></FindCaregiversCard>
           </div>
         </div>
 
         <div className="card-container-bottom">
           <div className="my-messages">
-            <Card> Your Messages</Card>
+            <YourMessagesCard></YourMessagesCard>
           </div>
 
           <div className="resume">
-            <Card>Resume</Card>
+            <ResumeCard></ResumeCard>
           </div>
         </div>
       </div>

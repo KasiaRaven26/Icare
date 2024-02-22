@@ -7,12 +7,9 @@ const Card = (props) => {
   return (
     <div className={styles.card}>
       <h1 className={styles.header}>
-        <a>{props.children}</a>
       </h1>
       <div className={styles.content}>
-        <div className={styles.iconDiv}>
-          <GoChevronLeft size={30} />
-        </div>
+      {props.children}
         </div>
     </div>
   );

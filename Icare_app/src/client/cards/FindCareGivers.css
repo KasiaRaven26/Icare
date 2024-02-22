@@ -11,6 +11,7 @@
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.40);
     color: #1cb2cdc6;
 
+
 }
 .styled-table thead tr {
 background-color:rgba(245, 245, 245, 0.939);
@@ -19,6 +20,7 @@ font-weight: 200;
 font-size:smaller;
 text-align:center;
 font-size: 0.7em;
+
 font-stretch:wider;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 text-decoration: underline solid rgba(175, 220, 216, 0.43);
@@ -26,8 +28,7 @@ text-decoration: underline solid rgba(175, 220, 216, 0.43);
 }
 
 .styled-table th {
-
-    padding: 20px 20px;
+   padding: 20px 20px;
 }
 
 .styled-table td {
@@ -37,8 +38,6 @@ text-decoration: underline solid rgba(175, 220, 216, 0.43);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.6em;
     color:#0ab1a9;
-
-
 }
 
 
