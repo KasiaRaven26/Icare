@@ -71,11 +71,11 @@ export function Login(props) {
     <div>
       <div className="modal">
         <div className="modal-content">
-          <header>
+        
             <h1>Login</h1>
-          </header>
-          <body>
-            <form onSubmit={handleSubmit}>
+          
+          
+            <form className="login-form" onSubmit={handleSubmit}>
               <div>
                 <label>Full Name</label>
                 <input
@@ -96,12 +96,12 @@ export function Login(props) {
                   onChange={handleChange}
                 />
               </div>
-              <button type="submit">Submit</button>
+              <button className="submit-button" type="submit">Submit</button>
             </form>
-            <button onClick={props.closeModal}>Hide</button>
+            <button  className="close-button" onClick={props.closeModal}>close</button>
             {!loginSuccess && html()}
-          </body>
-          <footer></footer>
+          
+        
         </div>
       </div>
     </div>
