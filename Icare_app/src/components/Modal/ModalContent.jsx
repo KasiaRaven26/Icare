@@ -21,7 +21,7 @@ export function ModalContent({ HidingTheButton }) {
               in The Netherlands, Germany and Italy.
             </p>
             <p>On the private basis with full safety.</p>
-            <p className="border-radius"> <strong>For both sides. </strong></p>
+            <p className="border-radius"> For both sides. </p>
           </div>
           <footer className="click-button">
             <Button onClick={Hide}>Close</Button>
