@@ -77,8 +77,8 @@ export function Login(props) {
           
             <form className="login-form" onSubmit={handleSubmit}>
               <div>
-                <label>Full Name</label>
-                <input
+                <label className="input-label" >Full Name</label>
+                <input className="input-name"
                   value={loginDetails.name}
                   id="full-name"
                   name="full-name"
@@ -87,8 +87,8 @@ export function Login(props) {
                 />
               </div>
               <div>
-                <label>Password</label>
-                <input
+                <label className="input-label"  >Password</label>
+                <input className="input-password"
                   value={loginDetails.password}
                   id="password"
                   name="password"

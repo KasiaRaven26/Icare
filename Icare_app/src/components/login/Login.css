@@ -96,11 +96,12 @@
 .login-form {
 margin-top:100px;
 
+
 }
 .submit-button {
 border-radius: 12px;
 margin-left: 70px;
-background-color: rgba(15, 194, 230, 0.225);
+background-color: rgba(237, 236, 178, 0.791);
 border:1px solid;
 margin-top: 30px;
 margin-bottom: 30px;
@@ -108,5 +109,19 @@ margin-bottom: 30px;
 .close-button {
   border-radius: 12px;
   background-color:rgb(44, 203, 203);
+  margin-top: 100px;
+  border-radius: 30px;
+  width:60px;
+margin-left: 65px;
+border: 1px solid;
+}
 
+.input-label {
+  margin-bottom: 20px;
+ display:inline-flex;
+ background-color: rgb(245, 235, 221);
+ border-radius: 50px;
+ font-size: 14px;
+ font-weight: 200;
+ 
 }
