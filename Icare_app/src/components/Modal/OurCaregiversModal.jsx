@@ -15,7 +15,9 @@ export function OurCaregiversModal({ HidingTheButton }) {
           <header>
             <h1 className="highlight"> OUR CAREGIVERS</h1>
           </header>
-          <p></p>
+          <p>With us our caregivers are able to find work without worry for intermediaries charging extra fees for their reliable work.</p>
+           <p> Here the employment relationship takes place directly between the client and the caregiver.</p>
+          
           <body></body>
           <footer className="click-button">
              <Button onClick={Hide}>Close</Button>
