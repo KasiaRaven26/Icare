@@ -6,10 +6,56 @@
       "id": 1
     },
     {
-
       "Name": "Adam Kirwan",
       "Password": "password",
       "id": 2
+    }
+  ],
+  "login": {
+    "name": "Adam Kirwan",
+    "password": "aaaaaa"
+  },
+  "availableCareGivers": [
+    {
+      "id": 1,
+      "name": "Adam Kirwan",
+      "age": 32,
+      "location": "Poole",
+      "availability": "Immidately",
+      "resume": true,
+      "email": "adam@asd.com"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "contact": "John Jones",
+      "email": "JohnJones@gmail.123",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "contact": "Jimmy Bear",
+      "email": "JimmyBear@gmail.123",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "contact": "Jack the Rabbit",
+      "email": "email@email",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "contact": "Jack the Rabbit",
+      "email": "email@email",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "contact": "Jack the Rabbit",
+      "email": "email@email",
+      "id": 7
     }
   ]
 }
