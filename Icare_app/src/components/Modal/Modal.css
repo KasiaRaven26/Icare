@@ -22,18 +22,18 @@
   width: 500px;
   height: 500px;
   background-color: #fff;
-  border-radius: 5px;
+  border: radius 5px;
   padding: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction:column;
+  justify-content:stretch;
 }
 
 .close {
-  display: flex;
+  display:contents;
 
-  justify-content: flex-end;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
 }
 
 .close-btn {
@@ -42,7 +42,7 @@
   border-radius: 15px;
   padding: 5px 7px;
   background-color: #950a0a;
-
+  display: flex;
   font-size: 1.5rem;
   cursor: pointer;
 }

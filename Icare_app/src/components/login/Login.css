@@ -27,7 +27,6 @@
     border-radius: 15px;
     padding: 5px 7px;
     background-color: #fff;
-  
     font-size: 1.5rem;
     cursor: pointer;
   }
@@ -75,7 +74,7 @@
    text-align:center;
    position: relative;
    top: 50%;
- 
+   text-decoration: underline;
 
 }
 
@@ -92,4 +91,38 @@
 @keyframes cssAnimation {
   from {opacity: 1; }
   to   { opacity: 0; }
+}
+
+.login-form {
+margin-top:100px;
+
+
+
+}
+.submit-button {
+border-radius: 12px;
+margin-left: 70px;
+background-color: rgb(245, 235, 221);
+border:1px solid;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.close-button {
+  border-radius: 12px;
+  background-color:rgb(44, 203, 203);
+  margin-top: 100px;
+  border-radius: 30px;
+  width:60px;
+margin-left: 65px;
+border: 1px solid;
+}
+
+.input-label {
+  margin-bottom: 20px;
+ display:inline-flex;
+ background-color: rgb(245, 235, 221);
+ border-radius: 50px;
+ font-size: 14px;
+ font-weight: 200;
+ 
 }
