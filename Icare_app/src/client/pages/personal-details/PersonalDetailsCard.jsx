@@ -1,12 +1,10 @@
-import Card from "../../Card"
-
-
-
+import Card from "../../Card";
 
 const PersonalDetailsCard = () => {
-    return (<Card> Personal details </Card>)
-        
-
-    
-}
+  return (
+    <div>
+      <Card> Personal details </Card>
+    </div>
+  );
+};
 export default PersonalDetailsCard;

@@ -1,0 +1,79 @@
+.card {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2600);
+    border-radius: 60px;
+    border: 3px solid rgb(91, 119, 137);
+
+}
+.card:hover {
+      border: 3px solid rgb(206, 228, 241);
+  }
+.header {
+    text-align: center;
+    height: 10%;
+    color: #2faba796;
+    text-decoration: none;
+    cursor: pointer;
+  
+  
+}
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+  }
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .link {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    text-decoration: none;
+  }
+  .link:hover {
+
+    color: #006394;
+
+  }
+  .content {
+    width: 100%;
+    height: 80%;
+    position: relative;
+
+  }
+
+  .iconDiv {
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+
+  .questionMark {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  .questionMark .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(115, 178, 178, 0.748);;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  }
+  .questionMark:hover .tooltiptext {
+    visibility: visible;
+  }
