@@ -13,16 +13,47 @@
   ],
   "login": {
     "name": "Adam Kirwan",
-    "password": "aaaaaa"
+    "password": "pword"
   },
   "availableCareGivers": [
     {
       "id": 1,
       "name": "Adam Kirwan",
       "age": 32,
+      "experience": "6 years",
+      "location": "Poole",
+      "availability": "Immediately",
+      "resume": "true",
+      "email": "adam@asd.com"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "age": 32,
+      "experience": "22 years",
+      "location": "Netherlands",
+      "availability": "unavailable",
+      "resume": "false",
+      "email": "John@smith.com"
+    },
+    {
+      "id": 3,
+      "name": "Adam Kirwan",
+      "age": 32,
+      "experience": " years",
       "location": "Poole",
       "availability": "Immidately",
-      "resume": true,
+      "resume": "true",
+      "email": "adam@asd.com"
+    },
+    {
+      "id": 4,
+      "name": "Adam Kirwan",
+      "age": 32,
+      "experience": " years",
+      "location": "Poole",
+      "availability": "Immidately",
+      "resume": "true",
       "email": "adam@asd.com"
     }
   ],
