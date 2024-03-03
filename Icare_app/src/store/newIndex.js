@@ -14,6 +14,8 @@ import {
   notAuthenticated,
   authenticatedReducer,
 } from "./slices/auth";
+import { messagesReducer } from "./slices/messagesSlice";
+
 import { setupListeners } from "@reduxjs/toolkit/query";
 import { contactsApi } from "./apis/contactsApi";
 
@@ -22,6 +24,7 @@ const store = configureStore({
     user: userReducer,
     availableCareGivers: availableCareGiversReducer,
     auth: authenticatedReducer,
+    messages: messagesReducer,
     [contactsApi.reducerPath]: contactsApi.reducer,
   },
   middleware: (getDefaultMiddleware) => {
@@ -44,9 +47,10 @@ export {
 };
 
 export * from "./thunks/fetchAvailableCareGivers";
+export * from "./thunks/fetchMessages";
 
 export {
   useFetchContactsQuery,
   useAddContactMutation,
-  useRemoveContactMutation
+  useRemoveContactMutation,
 } from "./apis/contactsApi";

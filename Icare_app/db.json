@@ -88,5 +88,27 @@
       "email": "email@email",
       "id": 7
     }
+  ],
+  "messages": [
+    {
+      "userId": 1,
+      "senderId": 2,
+      "message": "Hi Adam, it's John here"
+    },
+    {
+      "userId": 1,
+      "senderId": 3,
+      "message": "Hi Adam, it's Mike here"
+    },
+    {
+      "userId": 1,
+      "senderId": 4,
+      "message": "Hi Adam, it's Pete here"
+    },
+    {
+      "userId": 1,
+      "senderId": 5,
+      "message": "Hi Adam, it's Simon here"
+    }
   ]
 }

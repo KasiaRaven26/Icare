@@ -1,8 +1,8 @@
 import logo from "../components/I_care.jpg";
 import styles from "./ClientHeader.module.css";
-import { FaRegMessage } from "react-icons/fa6";
 import { RiAccountBoxLine } from "react-icons/ri";
 import { FaSearch } from "react-icons/fa";
+import MessageComponent from "../components/messageComponent/MessageComponent";
 
 const ClientHeader = () => {
   return (
@@ -13,8 +13,8 @@ const ClientHeader = () => {
         </a>
       </div>
       <div className={styles.linkDiv}>
-      <FaSearch style={{ margin: "8 40 0 0" }} size={40}/>
-        <FaRegMessage style={{ margin: "8 40 0 0" }} size={40}></FaRegMessage>
+        <FaSearch style={{ margin: "8 40 0 0" }} size={40} />
+        <MessageComponent />
         <RiAccountBoxLine size={50} />
       </div>
     </div>
