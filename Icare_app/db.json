@@ -9,6 +9,10 @@
       "Name": "Adam Kirwan",
       "Password": "password",
       "id": 2
+    },
+    {
+      "name": "Adam Kirwan",
+      "id": 3
     }
   ],
   "login": {
