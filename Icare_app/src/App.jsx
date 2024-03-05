@@ -22,7 +22,7 @@ function App() {
         <Route path="/client">
           <Route index={true} element={<ClientHomePage />}></Route>
           <Route path="messages" element={<ClientMessages />} />
-          <Route path="your-messages" element={<YourMessages />} />
+          {/* <Route path="your-messages" element={<YourMessages />} /> */}
           <Route path="cover-letter" element={<CoverLetter />} />
           <Route path="your-details" element={<YourDetails />} />
           <Route path="resume" element={<Resume />} />

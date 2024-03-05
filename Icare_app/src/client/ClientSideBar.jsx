@@ -1,4 +1,6 @@
 import { GoChevronRight } from "react-icons/go";
+import { Link, useNavigate } from "react-router-dom";
+import { redirect } from "react-router-dom";
 import styles from "./ClientSideBar.module.css";
 
 const ClientSideBar = ({ sideBarOpen }) => {
@@ -11,10 +13,10 @@ const ClientSideBar = ({ sideBarOpen }) => {
     >
       {sideBarOpen && (
         <div className={styles.containerContent}>
-          <a href="/client/your-details"><h3>YOUR DETAILS</h3></a>
-          <a href="/client/cover-letter"><h3>FIND CAREGIVERS </h3></a>
-          <a href="/client/your-messages"><h3>YOUR MESSAGES</h3></a>
-          <a href="/client/resume"><h3>RESUME</h3></a>
+          <Link to="/client/your-details"><h3>YOUR DETAILS</h3></Link>
+          <Link to="/client/cover-letter"><h3>FIND CAREGIVERS </h3></Link>
+          <Link to="/client/messages"><h3>YOUR MESSAGES</h3></Link>
+          <Link to="/client/resume"><h3>RESUME</h3></Link>
 
         </div>
       )}

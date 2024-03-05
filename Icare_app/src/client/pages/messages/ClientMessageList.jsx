@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import ClientMessageCard from "./ClientMessageCard";
 
 const ClientMessageList = () => {
   const messageData = useSelector((state) => {
@@ -6,16 +7,17 @@ const ClientMessageList = () => {
     return state.messages.data;
   });
 
-  const renderedData = () => {
+  const renderedData = messageData.map((element) => {
+    console.log(messageData);
     return (
-      <div>
-        {messageData.map((item) => {
-          return item.message;
-        })}
-      </div>
+      <ClientMessageCard
+        key={element.id}
+        sender={element.senderId}
+        message={element.message}
+      />
     );
-  };
+  });
 
-  return <div>{renderedData()}</div>;
+  return <div>{renderedData}</div>;
 };
 export default ClientMessageList;

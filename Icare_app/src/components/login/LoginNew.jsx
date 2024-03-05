@@ -1,14 +1,20 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { addLoggedInUser } from "../../store/newIndex";
+// import { useThunk } from '../../../src/hooks/useThunk';
 
 import axios from "axios";
 import "./login.css";
+import { useDispatch } from "react-redux";
 
 export function LoginNew() {
   const [users, setUsers] = useState([]);
   const [loginDetails, setLoginDetails] = useState({ name: "", password: "" });
+  // const [doAddUser, isAddingUser, addingUserError] = useThunk(addUser)
+
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const getUsers = async () => {
     const response = await axios.get("http://localhost:3001/users");
@@ -28,6 +34,8 @@ export function LoginNew() {
         element.Name == loginDetails.name &&
         element.Password == loginDetails.password
       ) {
+        /// Need to push the changes to redux store here
+        dispatch(addLoggedInUser(loginDetails))
         navigate("/client");
       }
     });

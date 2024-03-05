@@ -3,12 +3,8 @@ import {
   findAvailableCareGivers,
   availableCareGiversReducer,
 } from "./slices/availableCareGiversSlice";
-import {
-  userReducer,
-  updateUser,
-  addUser,
-  dismountUser,
-} from "./slices/userSlice";
+import { userReducer } from './slices/userSlice';
+import { addLoggedInUser, loggedInUserReducer } from "./slices/loggedInUserSlice";
 import {
   authenticated,
   notAuthenticated,
@@ -25,6 +21,7 @@ const store = configureStore({
     availableCareGivers: availableCareGiversReducer,
     auth: authenticatedReducer,
     messages: messagesReducer,
+    loggedInUser: loggedInUserReducer,
     [contactsApi.reducerPath]: contactsApi.reducer,
   },
   middleware: (getDefaultMiddleware) => {
@@ -39,15 +36,14 @@ window.store = store;
 export {
   store,
   findAvailableCareGivers,
-  updateUser,
-  addUser,
-  dismountUser,
   authenticated,
   notAuthenticated,
+  addLoggedInUser
 };
 
 export * from "./thunks/fetchAvailableCareGivers";
 export * from "./thunks/fetchMessages";
+export * from "./thunks/addUser"
 
 export {
   useFetchContactsQuery,
