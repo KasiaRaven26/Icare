@@ -34,7 +34,9 @@ function Content() {
 
   const myStyle = {
     backgroundImage: `url(${carer})`,
+    // opacity:0.7
   };
+
 
   return (
     <div id="outer-container" style={myStyle}>

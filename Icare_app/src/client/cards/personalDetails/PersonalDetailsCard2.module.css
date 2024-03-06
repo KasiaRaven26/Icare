@@ -1,18 +1,25 @@
 .card {
-    background: rgb(255, 255, 255);
+    background: rgb(237, 233, 226);
     box-shadow: 0 2px 8px rgba(0,0,0,0.2600);
-    border-radius: 60px;
-    border: 3px solid rgb(91, 119, 137);
-
+    border-radius:20px;
+    border: 0.8px solid rgb(0, 1, 1);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    padding-right: 20px;
+    font-size:smaller;
+    margin-left: 5px;
+    
+    
 }
 .card:hover {
-      border: 3px solid rgb(206, 228, 241);
+    border: 0.8px solid rgb(206, 228, 241);
   }
 .header {
     text-align: center;
-    height: 10%;
+    height: 10px;
     color: #2faba796;
-    text-decoration: none;
     cursor: pointer;
   
   

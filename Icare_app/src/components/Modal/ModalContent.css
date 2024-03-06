@@ -28,6 +28,7 @@
   align-items: center;
   z-index: 100;
   font-weight: 200;
+
   
 }
 
@@ -42,6 +43,7 @@
   transition: 0.5s;
   align-content:center;
   flex-wrap: wrap;
+  
   
   
 }
@@ -86,6 +88,7 @@ p {
   word-break: keep-all;
   font-size: 24px;
   line-height: 33px;
+  
 }
 
 h1 {

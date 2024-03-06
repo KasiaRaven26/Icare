@@ -10,7 +10,7 @@ export function Header() {
       </div>
       <div className="link-div">
         <a href="./login">login</a>
-        <div onClick={handleClick} >login to </div>
+        <div onClick={handleClick} ></div>
       </div>
     </div>
   );

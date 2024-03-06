@@ -13,7 +13,7 @@
 .pill:hover {
   border-color: blanchedalmond;
   border: 3px solid rgba(158, 225, 215, 0.657);
-
+  transform:scale(1.1);
+  transition:(1.5s);
   
 }
-

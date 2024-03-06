@@ -5,10 +5,9 @@ const ContactNumbersCard = () => {
   const contactNumber = () => {
     return (
       <div>
-        <h2>Contact numbers</h2>
-        <h4>Contact number 1</h4>
-        <h4>Contact number 2</h4>
-        <h4>Contact number 3</h4>
+        <h2>Contact</h2>
+        <h4>Phone number</h4>
+      
       </div>
     );
   };
