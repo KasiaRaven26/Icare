@@ -8,10 +8,7 @@ const ResumeCard = () => {
       <div>
         <h2>Resume</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et mi
-          eros. Donec eu neque nec nunc vehicula hendrerit eu a quam. Sed nec
-          turpis et tellus ornare facilisis. Aenean nec nibh et odio ornare
-          tristique sit amet non orci.
+          
         </p>
       </div>
     );

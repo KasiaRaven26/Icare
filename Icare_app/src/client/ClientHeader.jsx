@@ -20,7 +20,7 @@ const ClientHeader = () => {
         </a>
       </div>
       <div className={styles.linkDiv}>
-        <h2>Hi {user}</h2>
+        <h2>Hi!{user}</h2>
         <FaSearch style={{ margin: "8 40 0 0" }} size={40} />
         <MessageComponent />
         <RiAccountBoxLine size={50} />

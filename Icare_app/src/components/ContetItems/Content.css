@@ -6,15 +6,6 @@
   
 }
 
-.agenda:hover {
-  transform:scale(1.1);
-  transition:(1.5s);
-  
- 
-  
-  }
-
-
 .location {
   grid-column-start: 2;
   grid-column-end: 2; 
@@ -24,12 +15,6 @@
 
 }
 
-.location:hover {
-  transform: scale(1.1);
-  transition:(1.5s);
-}
-
-
 .our-clients {
   grid-column-start: 1;
   grid-column-end: 1;
@@ -38,10 +23,7 @@
   z-index: 2;
 }
 
-.our-clients:hover {
-  transform: scale(1.1);
-  transition:(1.5s);
-}
+
 
 
 .join-us {
@@ -50,11 +32,6 @@
   grid-row-start: 5;
   grid-row-start: 5;
   z-index: 2;
-}
-
-.join-us:hover {
-  transform: scale(1.1);
-  transition:(1.5s);
 }
 
 
@@ -66,19 +43,23 @@
   z-index: 2;
 }
 
-.donate:hover {
-  transform: scale(1.1);
-  transition: (1.5s);
-}
-
 .grid-container {
   display: grid;
   padding: 60px;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  background: rgba(255,255,255,0.2);
+  
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+}
 /* .grid-container:after {
   content: "";
   display: block;

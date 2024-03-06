@@ -1,10 +1,10 @@
 .messages {
-    color: rgb(96, 96, 234);
+    color: rgb(207, 96, 104);
 
 }
 
 .messages:hover {
-    color: blue;
-    cursor: pointer;
+    color: rgb(207, 96, 104);
+    cursor:grab;
     text-decoration: underline;
 }

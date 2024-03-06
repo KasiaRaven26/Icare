@@ -22,6 +22,7 @@ const FindCareGivers = () => {
   }
 
   const rows = data.map((careGiver) => {
+    
     return (
       <tr key={careGiver.id}>
         <td>{careGiver.name}</td>
