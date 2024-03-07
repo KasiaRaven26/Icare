@@ -1,0 +1,94 @@
+.card {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 60px;
+  height: 100%;
+  border: 3px solid rgb(91, 119, 137);
+}
+.card:hover {
+  border: 3px solid rgb(206, 228, 241);
+}
+.header {
+  text-align: center;
+  height: 10%;
+  color: #2faba796;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.05em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.link {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  text-decoration: none;
+}
+.link:hover {
+  color: #006394;
+}
+.content {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+.iconDiv {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.styledTable {
+  border-collapse: separate;
+  width: 100%;
+  color: #3199abc6;
+  padding: 5px;
+}
+.styledTable thead tr {
+  background-color: rgba(245, 245, 245, 0.939);
+  color: rgba(79, 75, 75, 0.869);
+  /* font-weight:200; */
+  /* font-size:medium; */
+  text-align: center;
+  /* font-size: 0.7em; */
+  font-stretch: wider;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: underline solid rgba(175, 220, 216, 0.43);
+}
+
+.styledTable th {
+  padding: 14px 16px;
+  font-weight: 500;
+  color: rgb(82, 79, 79);
+}
+
+.styledTable td {
+  padding: 12px 15px;
+  /* font-size:medium; */
+  /* font-weight: 180; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-size: 0.6em; */
+  color: #25a59e;
+}
+
+.styledTable tbody tr:nth-of-type(even) {
+  background-color: #5a9ebe25;
+}

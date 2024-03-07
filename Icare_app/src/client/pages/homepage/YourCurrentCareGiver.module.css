@@ -1,0 +1,70 @@
+.card {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 60px;
+    height: 100%;
+    border: 3px solid rgb(91, 119, 137);
+  }
+  .card:hover {
+    border: 3px solid rgb(206, 228, 241);
+  }
+  .header {
+    text-align: center;
+    height: 10%;
+    color: #2faba796;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+  }
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .link {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    text-decoration: none;
+  }
+  .link:hover {
+    color: #006394;
+  }
+  .content {
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+  
+  .iconDiv {
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+  
+  .logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    border: 2px solid black;
+    margin: 10px 200px 10px 200px;
+  }
+  .careGiverDetails {
+    /* border-radius:20px; */
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 10px 10px 10px 10px;  
+  }
+  

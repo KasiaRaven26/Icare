@@ -13,10 +13,11 @@ const ClientSideBar = ({ sideBarOpen }) => {
     >
       {sideBarOpen && (
         <div className={styles.containerContent}>
-          <Link to="/client/your-details"><h3>YOUR DETAILS</h3></Link>
-          <Link to="/client/cover-letter"><h3>FIND CAREGIVERS </h3></Link>
-          <Link to="/client/messages"><h3>YOUR MESSAGES</h3></Link>
-          <Link to="/client/resume"><h3>RESUME</h3></Link>
+          <Link to="/client"><h3>Home</h3></Link>
+          <Link to="/client/your-details"><h3>Your Details</h3></Link>
+          <Link to="/client/cover-letter"><h3>Find Caregivers</h3></Link>
+          <Link to="/client/messages"><h3>Your Messages</h3></Link>
+          <Link to="/client/resume"><h3>Resume</h3></Link>
 
         </div>
       )}
