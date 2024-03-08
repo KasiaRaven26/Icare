@@ -4,6 +4,7 @@
     border-radius: 60px;
     height: 100%;
     border: 3px solid rgb(91, 119, 137);
+    
   }
   .card:hover {
     border: 3px solid rgb(206, 228, 241);
@@ -11,7 +12,7 @@
   .header {
     text-align: center;
     height: 10%;
-    color: #2faba796;
+    color: #2faba79e;
     text-decoration: none;
     cursor: pointer;
   }
@@ -63,8 +64,9 @@
   }
   .careGiverDetails {
     /* border-radius:20px; */
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
     margin: 10px 10px 10px 10px;  
+    
   }
   
