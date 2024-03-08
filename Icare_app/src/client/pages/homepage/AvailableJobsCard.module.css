@@ -14,7 +14,8 @@
   color: #2faba796;
   text-decoration:none;
   cursor: pointer;
-  font-weight: 100;
+  font-weight: 300;
+
   
 }
 .link::after {
@@ -94,3 +95,44 @@
 .styledTable tbody tr:nth-of-type(even) {
   background-color: #5a9ebe25;
 }
+
+.searchbutton {
+  border-radius: 15px;
+  border:1.5px solid black;
+  margin-top:20px;
+  margin-left: 90px;
+  background-color: #25a59f55;
+  height:35px;
+  width: 140px;
+  font-weight: 400;
+  font-size: medium;
+  box-shadow: 7px 7px 20px 0px  rgba(74, 72, 72, 0.1), 40px 40px 10px -40px  rgba(56, 180, 211, 0.8) inset;
+}
+
+.searchbutton:hover {
+  border: 1.5px solid rgba(59, 199, 221, 0.568);
+  color: white;
+
+}
+
+.filters {
+  border-radius: 15px;
+  border:1.5px solid black;
+  margin-top:20px;
+  margin-left: 80px;
+  background-color: #25a59f51;
+  height:35px;
+  width:140px;
+  font-weight: 400;
+  font-size: medium;
+  box-shadow: 7px 7px 20px 0px  rgba(74, 72, 72, 0.1), 40px 40px 10px -40px  rgba(56, 180, 211, 0.8) inset;
+
+  
+ }
+  
+.filters:hover {
+border: 1.5px solid rgba(59, 199, 221, 0.568);
+color: white;
+}
+
+

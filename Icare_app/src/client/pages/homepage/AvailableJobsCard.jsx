@@ -1,7 +1,11 @@
 import styles from "./AvailableJobsCard.module.css";
 
 const AvailableJobsCard = () => {
+  const handleClick = () => {console.log("button ")} 
+  const handleFilter = () => {console.log("filter")}
+  
   return (
+  
     <div className={styles.card}>
       <h1 className={styles.header}>available caregivers</h1>
       <div className={styles.content}>
@@ -36,8 +40,8 @@ const AvailableJobsCard = () => {
             </tr>
           </tbody>
         </table>{" "}
-        <button>search for caregivers</button>
-        <button>change filters</button>
+       <button  className={styles.searchbutton} onClick={handleClick}>find caregivers</button>
+        <button className={styles.filters} onClick={handleFilter}>change filters</button>
       </div>
     </div>
   );
