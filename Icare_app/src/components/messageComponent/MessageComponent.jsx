@@ -37,7 +37,7 @@ const MessageComponent = () => {
 
   return (
     <div>
-      <FaRegMessage style={{ margin: "0 20 0 20" }} size={40}></FaRegMessage>
+      <FaRegMessage style={{ margin: "20 20 20 60" }} size={30}></FaRegMessage>
       <div>
         {isLoading
           ? loading()

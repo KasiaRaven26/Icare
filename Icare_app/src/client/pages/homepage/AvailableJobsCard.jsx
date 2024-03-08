@@ -3,9 +3,9 @@ import styles from "./AvailableJobsCard.module.css";
 const AvailableJobsCard = () => {
   return (
     <div className={styles.card}>
-      <h1 className={styles.header}>Available Care Givers</h1>
+      <h1 className={styles.header}>available caregivers</h1>
       <div className={styles.content}>
-        <p>There are 3 available care givers near you.....</p>
+        <p>There are 3 available caregivers near you...</p>
         <table className={styles.styledTable}>
           <thead>
             <tr>
@@ -36,8 +36,8 @@ const AvailableJobsCard = () => {
             </tr>
           </tbody>
         </table>{" "}
-        <button>Search For Care Givers</button>
-        <button>Change Filters</button>
+        <button>search for caregivers</button>
+        <button>change filters</button>
       </div>
     </div>
   );

@@ -9,11 +9,27 @@
     top: 50px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    
     
     
    
 }
 
+.username {
+    margin-right:50px;
+    font-size:22px;
+    text-align:center;
+    font-weight: 550;
+    
+    
+    
+}
+
+.messageicon {
+    margin-left: 20px;
+}
 /* .link-div > a {
     margin-left: 50px;
 } */

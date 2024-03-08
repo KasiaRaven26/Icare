@@ -1,9 +1,10 @@
 import logo from "../components/I_care.jpg";
 import styles from "./ClientHeader.module.css";
 import { RiAccountBoxLine } from "react-icons/ri";
-import { FaSearch } from "react-icons/fa";
 import MessageComponent from "../components/messageComponent/MessageComponent";
 import { useSelector } from "react-redux";
+import { SearchBar } from "../components/searchBar/SearchBar";
+
 
 const ClientHeader = () => {
 
@@ -20,11 +21,14 @@ const ClientHeader = () => {
         </a>
       </div>
       <div className={styles.linkDiv}>
-        <h2>Hi!{user}</h2>
-        <FaSearch style={{ margin: "8 40 0 0" }} size={40} />
-        <MessageComponent />
+      < SearchBar />
+        <h2 className={styles.username}>Hi! {user}</h2>
+      
+       <div className={styles.messageicon}> <MessageComponent /></div>
         <RiAccountBoxLine size={50} />
+        
       </div>
+      
     </div>
   );
 };
