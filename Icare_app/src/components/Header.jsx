@@ -1,6 +1,7 @@
 import logo from "./I_care.jpg";
 import "./Header.css";
 
+
 export function Header() {
   const handleClick = () => {console.log("Kasia loves Adam ")} 
   return (

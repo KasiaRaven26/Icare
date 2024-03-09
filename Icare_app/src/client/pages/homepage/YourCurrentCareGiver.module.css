@@ -68,13 +68,15 @@
     border-bottom: 1.5px solid black;
     border-top: 1.5px solid black;
     margin: 10px 10px 10px 10px;  
+    text-align: center;
+    
     
   }
   
   .contact {
   border-radius: 15px;
   border:1.5px solid black;
-  margin-top:20px;
+  margin-top:40px;
   margin-left: 200px;
   background-color: #25a59f51;
   height:35px;
@@ -88,3 +90,27 @@
     border: 1.5px solid rgba(59, 199, 221, 0.568);
     color: white;
   }
+
+  .clientsmessages {
+    float: left;
+    border: 2px solid #0087ca84;
+    border-radius: 25px;
+    background-color: #0087ca92;
+    margin-right: 250px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 4px;
+  text-align: center;
+}
+
+.caregiversmessages {
+  float: right;
+  border: 2px solid #0087ca84;
+  border-radius: 25px;
+  background-color: #0087ca92;
+  margin-left: 250px;
+  margin-right: 20px;
+  margin-top:40px;
+  padding: 4px;
+text-align: center;
+}

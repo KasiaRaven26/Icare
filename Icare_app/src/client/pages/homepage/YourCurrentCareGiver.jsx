@@ -12,7 +12,6 @@ const YourCurrentCareGiver = () => {
           <h3>Samantha Klein</h3>
           <div>6 years of care experience</div>
           <div>Contract: 23/02/24 - 23/05/24</div>
-          <a href="#">Message</a>
         </div>
         <button className={styles.contact} onClick={handleContact}>contact Samantha</button>
       </div>

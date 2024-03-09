@@ -5,6 +5,7 @@ import YourMessagesCard from "./pages/homepage/YourMessagesCard";
 import ResumeCard from "./pages/homepage/ResumeCard";
 import AvailableJobsCard from "./pages/homepage/AvailableJobsCard";
 import YourCurrentCareGiver from "./pages/homepage/YourCurrentCareGiver";
+import YourInbox from "./pages/homepage/Yourinbox";
 
 const ClientContent = () => {
   const [sidebarOpen, setSideBarOpen] = useState(false);
@@ -31,7 +32,7 @@ const ClientContent = () => {
 
         <div className="card-container-bottom">
           <div className="my-messages">
-            <YourMessagesCard></YourMessagesCard>
+            <YourInbox></YourInbox>
           </div>
 
           <div className="resume">
