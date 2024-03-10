@@ -14,7 +14,7 @@ const FindCareGivers = () => {
   }, [dispatch]);
 
   if (isLoading) {
-    return <div>Loading......</div>;
+    return <div>Loading...</div>;
   }
 
   if (error) {
@@ -41,13 +41,13 @@ const FindCareGivers = () => {
       <table className="styled-table">
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Location</th>
-            <th>Experience</th>
-            <th>Availability</th>
-            <th>Resume</th>
-            <th>Email</th>
+            <th>name</th>
+            <th>age</th>
+            <th>location</th>
+            <th>experience</th>
+            <th>availability</th>
+            <th>resume</th>
+            <th>email</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>

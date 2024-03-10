@@ -18,7 +18,7 @@ const YourInbox = () => {
             
           </div >
 
-          {/* <button className={styles.contact} onClick={handleContact}>reply</button>  */}
+           <button className={styles.contact} onClick={handleContact}>reply</button>  
         </div>
       </div>  
     )
