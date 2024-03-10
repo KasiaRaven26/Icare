@@ -61,7 +61,8 @@
     width: 150px;
     border-radius: 200px;
     border: 2px solid black;
-    margin: 10px 200px 10px 200px;
+    margin: auto;
+    display: block
   }
   .careGiverDetails {
     /* border-radius:20px; */
@@ -76,8 +77,8 @@
   .contact {
   border-radius: 15px;
   border:1.5px solid black;
-  margin-top:40px;
-  margin-left: 200px;
+  /* margin-top:40px;
+  margin-left: 200px; */
   background-color: #25a59f51;
   height:35px;
   width:150px;
@@ -115,6 +116,8 @@
 text-align: center;
 }
 
-.contact {
-
+.buttonDiv {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }

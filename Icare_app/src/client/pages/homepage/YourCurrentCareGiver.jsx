@@ -2,7 +2,9 @@ import image from "/images/StockPhotoImage1.jpg";
 import styles from "./YourCurrentCareGiver.module.css";
 
 const YourCurrentCareGiver = () => {
-  const handleContact = () => {console.log("contact")}
+  const handleContact = () => {
+    console.log("contact");
+  };
   return (
     <div className={styles.card}>
       <h1 className={styles.header}>your caregiver</h1>
@@ -13,7 +15,11 @@ const YourCurrentCareGiver = () => {
           <div>6 years of care experience</div>
           <div>Contract: 23/02/24 - 23/05/24</div>
         </div>
-        <button className={styles.contact} onClick={handleContact}>contact Samantha</button>
+        <div className={styles.buttonDiv}>
+          <button className={styles.contact} onClick={handleContact}>
+            contact Samantha
+          </button>
+        </div>
       </div>
     </div>
   );

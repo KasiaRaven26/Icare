@@ -1,11 +1,14 @@
 import styles from "./AvailableJobsCard.module.css";
 
 const AvailableJobsCard = () => {
-  const handleClick = () => {console.log("button ")} 
-  const handleFilter = () => {console.log("filter")}
-  
+  const handleClick = () => {
+    console.log("button ");
+  };
+  const handleFilter = () => {
+    console.log("filter");
+  };
+
   return (
-  
     <div className={styles.card}>
       <h1 className={styles.header}>available caregivers</h1>
       <div className={styles.content}>
@@ -39,9 +42,15 @@ const AvailableJobsCard = () => {
               <td>Not contacted</td>
             </tr>
           </tbody>
-        </table>{" "}
-       <button  className={styles.searchbutton} onClick={handleClick}>find caregivers</button>
-        <button className={styles.filters} onClick={handleFilter}>change filters</button>
+        </table>
+        <div className={styles.buttonDiv}>
+          <button className={styles.searchbutton} onClick={handleClick}>
+            find caregivers
+          </button>
+          <button className={styles.filters} onClick={handleFilter}>
+            change filters
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import styles from "./ClientMessageList.module.css"
 import ClientMessageCard from "./ClientMessageCard";
 
 const ClientMessageList = () => {
@@ -18,6 +19,6 @@ const ClientMessageList = () => {
     );
   });
 
-  return <div>{renderedData}</div>;
+  return <div className={styles.messageContainer}>{renderedData}</div>;
 };
 export default ClientMessageList;
