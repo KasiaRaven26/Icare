@@ -4,6 +4,8 @@
   height: 90px;
   width: 140px;
 padding: 5px;
-float:right;
+margin:auto;
+display: block;
+
   
 }
