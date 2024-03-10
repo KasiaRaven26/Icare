@@ -10,9 +10,11 @@
     padding-right: 20px;
     font-size:smaller;
     margin-left: 5px;
-    
-    
 }
+.container {
+  margin-left: 40px;
+    padding: 40px;
+} 
 .card:hover {
     border: 0.8px solid rgb(206, 228, 241);
   }

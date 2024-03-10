@@ -1,92 +1,85 @@
 @media screen and (max-width: 2500px) {
+  .header {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+  }
 
-    .header {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        border: 1px solid black;
-    } 
-    
-    .footer {
-        grid-row: 5;
-        grid-column-start: 2;
-        grid-column-end: 6;
-        border: 1px solid black;
-    }
-    
-    .side-bar {
+  .footer {
+    grid-row: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+  }
 
-        grid-column-start: 1;
-        grid-column-end: 1;
-        border: 1px solid black;
+  .side-bar {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: 1px solid black;
+  }
+  .content {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
 
-    }
-    .content {
-        border: 1px solid black;
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-        
-    }
+  .content-grid-container {
+    margin-left: 40px;
+  }
+  .card-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
 
-    .content-grid-container {
-        width: 100%;
-        display: grid;
-        height: 100%;
-        grid-template-columns: 70px auto;
-    }
-    .card-container {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 30px;
-        
-    }
+  .personal-details-closed {
+    transition: all 1s linear;
+    transition-timing-function: ease-out;
+    width: 20%;
+    padding: 10px;
+  }
 
-    .personal-details-closed {
-        transition: all 1s linear;
-        transition-timing-function: ease-out;
-        width: 20%;
-        padding: 10px;
-    }
+  .personal-details-open {
+    transition: all 1s linear;
+    transition-timing-function: ease-out;
+    width: 80%;
+    padding: 10px;
+  }
 
-    .personal-details-open {
-        transition: all 1s linear;
-        transition-timing-function: ease-out;
-        width: 80%;
-        padding: 10px;
-    }
+  .cover-letter-open {
+    transition: all 1s linear;
+    transition-timing-function: ease-out;
+    width: 80%;
+    padding: 10px;
+  }
+  .cover-letter-closed {
+    transition: all 1s linear;
+    transition-timing-function: ease-out;
+    width: 20%;
+    padding: 10px;
+  }
 
-    .cover-letter-open {
-        transition: all 1s linear;
-        transition-timing-function: ease-out;
-        width: 80%;
-        padding: 10px;
-    }
-    .cover-letter-closed {
-        transition: all 1s linear;
-        transition-timing-function: ease-out;
-        width: 20%;
-        padding: 10px;
-    }
-    
+  .my-messages {
+    width: 50%;
+    padding: 10px;
+  }
 
-    .my-messages {
-        width: 50%;
-        padding: 10px;
-    }
-   
-
-    .resume {
-        width: 50%;
-        padding: 10px;
-    }
-    .client-side-bar {
-        /* background-color: rgb(71, 108, 108, 0.8); */
-        grid-column-start: 1;
-        grid-column-end: 2;
-        /* background-color: black; */
-        /* border-right: 3px solid black ;
+  .resume {
+    width: 50%;
+    padding: 10px;
+  }
+  .client-side-bar {
+    /* background-color: rgb(71, 108, 108, 0.8); */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* width: 600px; */
+    height: 100%;
+    position: absolute;
+    /* background-color: black; */
+    /* border-right: 3px solid black ;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
@@ -95,13 +88,13 @@
         width: 20px;
         transition: all 1s;
         z-index: 1; */
-        /* padding: 20px; */
-    }
+    /* padding: 20px; */
+  }
 
-    .side-bar-client-open {
-        /* background-color: rgb(71, 108, 108, 0.8); */
-        grid-column-start: 1;
-        /* border-right: 3px solid black ;
+  .side-bar-client-open {
+    /* background-color: rgb(71, 108, 108, 0.8); */
+    grid-column-start: 1;
+    /* border-right: 3px solid black ;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
@@ -111,62 +104,56 @@
         z-index: 1;
         transition: all 1s;
         padding: 20px; */
-    }
+  }
 
-.card-container-top {
+  .card-container-top {
     height: 50%;
     width: 100%;
     display: flex;
-}
+  }
 
-.card-container-bottom {
+  .card-container-bottom {
     height: 50%;
     width: 100%;
     display: flex;
-}
-
-
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    height: 1000px;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 
-    .container {
-        display: grid;
-        height: 1000px;
-        grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+  .header {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+  }
 
-    .header {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        border: 1px solid black;
-    } 
-    
-    .footer {
-        grid-row: 5;
-        grid-column-start: 2;
-        grid-column-end: 6;
-        border: 1px solid black;
-    }
-    
-    .side-bar {
-        grid-row-start: 1;
-        grid-row-end: 6;
-        grid-column: 1;
-        border: 1px solid black;
-  background-color: rgba(115, 178, 178, 0.748);
+  .footer {
+    grid-row: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+  }
 
-    }
-    .content {
-        display: flex;
-        flex-direction: row;
-        grid-row-start: 2;
-        grid-row-end: 5;
-        grid-column-start: 2;
-        grid-column-end: 6;
-        border: 1px solid black;
-    }
-
-    }
-
+  .side-bar {
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column: 1;
+    border: 1px solid black;
+    background-color: rgba(115, 178, 178, 0.748);
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    border: 1px solid black;
+  }
+}

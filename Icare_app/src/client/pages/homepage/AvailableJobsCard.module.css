@@ -99,8 +99,8 @@
 .searchbutton {
   border-radius: 15px;
   border:1.5px solid black;
-  margin-top:20px;
-  margin-left: 90px;
+  /* margin-top:20px;
+  margin-left: 90px; */
   background-color: #25a59f55;
   height:35px;
   width: 140px;
@@ -118,8 +118,8 @@
 .filters {
   border-radius: 15px;
   border:1.5px solid black;
-  margin-top:20px;
-  margin-left: 80px;
+  /* margin-top:20px;
+  margin-left: 80px; */
   background-color: #25a59f51;
   height:35px;
   width:140px;
@@ -136,3 +136,8 @@ color: white;
 }
 
 
+.buttonDiv {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -5,20 +5,21 @@ import YourMessagesCard from "./pages/homepage/YourMessagesCard";
 import ResumeCard from "./pages/homepage/ResumeCard";
 import AvailableJobsCard from "./pages/homepage/AvailableJobsCard";
 import YourCurrentCareGiver from "./pages/homepage/YourCurrentCareGiver";
-import YourInbox from "./pages/homepage/Yourinbox";
+import YourInbox from "./pages/homepage/YourInbox"
+
 
 const ClientContent = () => {
-  const [sidebarOpen, setSideBarOpen] = useState(false);
+  // const [sidebarOpen, setSideBarOpen] = useState(false);
 
-  const handleSidebar = () => {
-    setSideBarOpen(!sidebarOpen);
-  };
+  // const handleSidebar = () => {
+  //   setSideBarOpen(!sidebarOpen);
+  // };
 
   return (
     <div className="content-grid-container">
-      <div onClick={handleSidebar} className="client-side-bar">
+      {/* <div onClick={handleSidebar} className="client-side-bar">
         <ClientSideBar sideBarOpen={sidebarOpen} />
-      </div>
+      </div> */}
 
       <div className="card-container">
         <div className="card-container-top">

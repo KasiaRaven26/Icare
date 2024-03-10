@@ -3,7 +3,7 @@
 
 
     .pageRootGrid {
-        display: grid;
+        /* display: grid; */
         grid-template-rows: 200px 1fr 100px;
         height: 100%;
         
@@ -21,6 +21,7 @@
           grid-row-start: 2;
           grid-row-end: 3;
           background-color: rgba(115, 178, 178, 0.748);
+          position: relative;
         }
         
         .footer {
@@ -31,7 +32,7 @@
         }
         .clientGridContainer {
             width: 100%;
-            display: grid;
+            /* display: grid; */
             height: 100%;
             grid-template-columns: 70px auto;
         }
