@@ -93,7 +93,7 @@
   }
 
   .clientsmessages {
-    float: left;
+    /* float: left; */
     border: 0.5px solid #02b0b93a;
     border-radius: 25px;
     background-color: #02b0b93a;
@@ -105,7 +105,7 @@
 }
 
 .caregiversmessages {
-  float: right;
+  /* float: right; */
   border: 0.5px solid #02b0b998;
   border-radius: 25px;
   background-color:#02b0b998;
