@@ -12,7 +12,7 @@ const YourCurrentCareGiver = () => {
         <img className={styles.logo} src={image}></img>
         <div className={styles.careGiverDetails}>
           <h3>Samantha Klein</h3>
-          <div>6 years of care experience</div>
+          <div className={styles.experience}>6 years of care experience</div>
           <div>Contract: 23/02/24 - 23/05/24</div>
         </div>
         <div className={styles.buttonDiv}>

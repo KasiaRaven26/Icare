@@ -100,12 +100,14 @@ margin-top:100px;
 
 }
 .submit-button {
-border-radius: 12px;
-margin-left: 70px;
+border-radius: 15px;
+margin-left: 100px;
 background-color: rgb(245, 235, 221);
 border:1px solid;
-margin-top: 30px;
+margin-top: 50px;
 margin-bottom: 30px;
+height: 25px;
+width: 60px;
 }
 .close-button {
   border-radius: 12px;
@@ -113,16 +115,16 @@ margin-bottom: 30px;
   margin-top: 100px;
   border-radius: 30px;
   width:60px;
-margin-left: 65px;
+margin-left: 100px;
 border: 1px solid;
 }
 
 .input-label {
   margin-bottom: 20px;
  display:inline-flex;
- background-color: rgb(245, 235, 221);
  border-radius: 50px;
- font-size: 14px;
- font-weight: 200;
+ font-size: 17px;
+ font-weight: 350;
+ margin-right: 10px;
  
 }

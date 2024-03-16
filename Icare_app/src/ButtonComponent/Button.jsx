@@ -1,9 +1,10 @@
-
+import styles from "./Button.module.css"
 
 function Button({ children, ...rest }) {
   return (
-    <button {...rest} className="button">
+    <button {...rest} className={styles.button}>
       {children}
+      
     </button>
   );
 }
