@@ -32,7 +32,7 @@
 .line {
   height: 150px;
   width: 1.5px;
-  background: white;
+  background: rgba(226, 215, 215, 0.633);
   margin-bottom: 2px;
   
 

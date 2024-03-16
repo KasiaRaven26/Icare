@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { addLoggedInUser } from "../../store/newIndex";
 // import { useThunk } from '../../../src/hooks/useThunk';
+import Button from "../../ButtonComponent/Button";
 
 import axios from "axios";
 import "./login.css";
@@ -85,13 +86,13 @@ export function LoginNew() {
                 onChange={handleChange}
               />
             </div>
-            <button className="submit-button" type="submit">
-              Submit
-            </button>
+            
+              
+            
+            <Button type="submit">submit</Button>
+            <Button type="close">close</Button>
           </form>
-          <button className="close-button" onClick={handleClose}>
-            close
-          </button>
+          
         </div>
       </div>
     </div>
