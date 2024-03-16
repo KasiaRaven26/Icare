@@ -64,6 +64,19 @@
     margin: auto;
     display: block
   }
+.imageAndMessage {
+  display: flex;
+}
+
+.smallLogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 200px;
+  border: 1px solid black;
+  margin: auto;
+  /* display: block */
+}
+
   .careGiverDetails {
     /* border-radius:20px; */
     border-bottom: 1.5px solid black;
