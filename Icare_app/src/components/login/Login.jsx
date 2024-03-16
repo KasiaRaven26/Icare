@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { json, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import Button from "../../ButtonComponent/Button";
 
 import axios from "axios";
 import "./login.css";
@@ -83,7 +84,7 @@ export function Login(props) {
           
             <form className="login-form" onSubmit={handleSubmit}>
               <div>
-                <label className="input-label" >Full Name</label>
+                <label className="input-label" >Full name</label>
                 <input className="input-name"
                   value={loginDetails.name}
                   id="full-name"
@@ -102,7 +103,9 @@ export function Login(props) {
                   onChange={handleChange}
                 />
               </div>
-              <button className="submit-button" type="submit">Submit</button>
+              {/* <button className="submit-button" type="submit">Submit</button> */}
+              <Button>test</Button>
+              
             </form>
             <button  className="close-button" onClick={props.closeModal}>close</button>
             {!loginSuccess && html()}

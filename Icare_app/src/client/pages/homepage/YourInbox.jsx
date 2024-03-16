@@ -18,6 +18,7 @@ const YourInbox = () => {
             </div>
           </div>
           <div className={styles.caregiversmessages}>
+            <div className={styles.bubbleArrow}></div>
             Yes sure!When would it suit you best to have a conversation?Best
             regards,Samantha.
           </div>
