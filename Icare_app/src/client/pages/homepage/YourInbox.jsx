@@ -10,9 +10,12 @@ const YourInbox = () => {
       <h1 className={styles.header}>your inbox</h1>
       <div className={styles.content}>
         <div>
-          <div className={styles.clientsmessages}>
-            Hi Samantha,I would like to disscuss a job offer with you!Are you
-            available?
+          <div className={styles.imageAndMessage}>
+            <img className={styles.smallLogo} src={image}></img>
+            <div className={styles.clientsmessages}>
+              Hi Samantha,I would like to disscuss a job offer with you!Are you
+              available?
+            </div>
           </div>
           <div className={styles.caregiversmessages}>
             <div className={styles.bubbleArrow}></div>
@@ -20,7 +23,7 @@ const YourInbox = () => {
             regards,Samantha.
           </div>
           <div className={styles.clientsmessages}>
-            Let's say 4PM UK time on Saturday?
+            Lets say 4PM UK time on Saturday?
           </div>
           <div className={styles.clientsmessages}>
             Oh sorry!Can we make it 5PM instead?
