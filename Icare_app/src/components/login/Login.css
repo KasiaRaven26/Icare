@@ -98,6 +98,8 @@ margin-top:100px;
 
 
 
+
+
 }
 .submit-button {
 border-radius: 15px;
@@ -127,4 +129,8 @@ border: 1px solid;
  font-weight: 350;
  margin-right: 10px;
  
+}
+
+.button-container {
+  margin-top: 50px;
 }

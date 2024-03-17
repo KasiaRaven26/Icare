@@ -89,8 +89,8 @@ export function LoginNew() {
             
               
             
-            <Button type="submit">submit</Button>
-            <Button type="close">close</Button>
+           <div className="button-container"> <Button type="submit">submit</Button>
+            <Button type="close">close</Button></div>
           </form>
           
         </div>
