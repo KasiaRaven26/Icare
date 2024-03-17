@@ -6,6 +6,7 @@ import ResumeCard from "./pages/homepage/ResumeCard";
 import AvailableJobsCard from "./pages/homepage/AvailableJobsCard";
 import YourCurrentCareGiver from "./pages/homepage/YourCurrentCareGiver";
 import YourInbox from "./pages/homepage/YourInbox"
+import YourMessageList from "./pages/homepage/YourMessageList";
 
 
 const ClientContent = () => {
@@ -33,7 +34,8 @@ const ClientContent = () => {
 
         <div className="card-container-bottom">
           <div className="my-messages">
-            <YourInbox></YourInbox>
+            {/* <YourInbox></YourInbox> */}
+            <YourMessageList></YourMessageList>
           </div>
 
           <div className="resume">
