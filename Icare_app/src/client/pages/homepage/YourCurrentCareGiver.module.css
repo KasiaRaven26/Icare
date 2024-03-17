@@ -1,148 +1,162 @@
 .card {
-    background: rgb(255, 255, 255);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    border-radius: 60px;
-    height: 100%;
-    border: 3px solid rgb(91, 119, 137);
-    
-  }
-  .card:hover {
-    border: 3px solid rgb(206, 228, 241);
-  }
-  .header {
-    text-align: center;
-    height: 10%;
-    color: #28c0bbc4;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 300;
-  }
-  .link::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    border-radius: 5px;
-    height: 0.05em;
-    bottom: 0;
-    left: 0;
-    background: currentcolor;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    cursor: pointer;
-  }
-  .link:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  .link {
-    display: inline-block;
-    position: relative;
-    color: #0087ca;
-    text-decoration: none;
-  }
-  .link:hover {
-    color: #006394;
-  }
-  .content {
-    width: 100%;
-    height: 80%;
-    position: relative;
-  }
-  
-  .iconDiv {
-    position: absolute;
-    right: 0;
-    top: 30%;
-  }
-  
-  .logo {
-    height: 150px;
-    width: 150px;
-    border-radius: 200px;
-    border: 2px solid black;
-    margin: auto;
-    display: block
-  }
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 60px;
+  height: 100%;
+  border: 3px solid rgb(91, 119, 137);
+}
+.card:hover {
+  border: 3px solid rgb(206, 228, 241);
+}
+
+.messageListItemTimeContainer {
+  margin: 5px;
+}
+
+.header {
+  text-align: center;
+  height: 10%;
+  color: #28c0bbc4;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.05em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.link {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  text-decoration: none;
+}
+.link:hover {
+  color: #006394;
+}
+.content {
+  /* width: 100%;
+  height: 80%;
+  position: relative; */
+  margin: 20px;
+}
+
+.iconDiv {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+  border: 2px solid black;
+  margin: auto;
+  display: block;
+}
 .imageAndMessage {
   display: flex;
 }
 
-.smallLogo{
+.smallLogo {
   height: 50px;
   width: 50px;
-  border-radius: 200px;
+  border-radius: 10px;
   border: 1px solid black;
-  margin: auto;
+  margin: 5px;
   /* display: block */
 }
 
-  .careGiverDetails {
-    /* border-radius:20px; */
-    border-bottom: 1.5px solid black;
-    border-top: 1.5px solid black;
-    text-align: center;
-    padding: 20px;
-    
-    
-    
-  }
-  
-  .contact {
+.name {
+  font-weight: 700;
+}
+
+.careGiverDetails {
+  /* border-radius:20px; */
+  border-bottom: 1.5px solid black;
+  border-top: 1.5px solid black;
+  text-align: center;
+  padding: 20px;
+}
+.messageListItem {
+  border-bottom: 1px solid black;
+  margin: 2px;
+  display: flex;
+}
+.messageListItemText {
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact {
   border-radius: 15px;
-  border:1.5px solid black;
+  border: 1.5px solid black;
   /* margin-top:40px;
   margin-left: 200px; */
   background-color: #25a59f51;
-  height:35px;
-  width:150px;
+  height: 35px;
+  width: 150px;
   font-weight: 300;
   font-size: medium;
-  box-shadow: 7px 7px 20px 0px  rgba(74, 72, 72, 0.1), 40px 40px 10px -40px  rgba(56, 180, 211, 0.8) inset;
+  box-shadow: 7px 7px 20px 0px rgba(74, 72, 72, 0.1),
+    40px 40px 10px -40px rgba(56, 180, 211, 0.8) inset;
+}
+.contact:hover {
+  border: 1.5px solid rgba(59, 199, 221, 0.568);
+  color: white;
+}
 
-  }
-  .contact:hover {
-    border: 1.5px solid rgba(59, 199, 221, 0.568);
-    color: white;
-  }
-
-  .clientsmessages {
-    /* float: left; */
-    border: 0.5px solid #02b0b93a;
-    border-radius: 10px;
-    background-color: #02b0b93a;
-    margin-right: 250px;
-    margin-left: 20px;
-    margin-top: 30px;
-    padding: 4px;
+.clientsmessages {
+  /* float: left; */
+  border: 0.5px solid #02b0b93a;
+  border-radius: 10px;
+  background-color: #02b0b93a;
+  margin-right: 250px;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 4px;
   text-align: center;
 }
 
 .clientsmessages::before {
   /* float: left; */
-  content: '';
-  
+  content: "";
+
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 17px solid #02b0b93a ;
+  border-top: 17px solid #02b0b93a;
   border-left: 16px solid transparent;
   border-right: 16px solid transparent;
   top: -5px;
   left: 17px;
 }
 
-
 .caregiversmessages {
   /* float: right; */
   border: 0.5px solid #02b0b998;
   border-radius: 25px;
-  background-color:#02b0b998;
+  background-color: #02b0b998;
   margin-left: 250px;
   margin-right: 20px;
-  margin-top:40px;
+  margin-top: 40px;
   padding: 4px;
-text-align: center;
+  text-align: center;
 }
 
 .buttonDiv {
@@ -155,17 +169,12 @@ text-align: center;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  bottom: 0;
-  position:absolute;
-  
 }
 
-
 .divDetails {
-margin:15px;
+  margin: 15px;
 }
 
 .experience {
   margin-top: 10px;
 }
-
