@@ -76,10 +76,11 @@
 .smallLogo {
   height: 50px;
   width: 50px;
-  border-radius: 10px;
+  border-radius: 25px;
   border: 1px solid black;
   margin: 5px;
   /* display: block */
+  margin-block: auto;
 }
 
 .name {
@@ -97,9 +98,12 @@
   padding: 20px;
 }
 .messageListItem {
-  border-bottom: 1px solid black;
-  margin: 2px;
+  border: 0.5px solid black;
+  margin: 7px;
   display: flex;
+  border-radius: 35px;
+ 
+  
 }
 .messageListItemText {
   padding: 5px;
@@ -197,4 +201,8 @@
 .contactbutton:hover{
   border: 1.5px solid rgba(59, 199, 221, 0.568);
   color: white;
+}
+
+.messageListItem:hover {
+  color: #62d1d9;
 }

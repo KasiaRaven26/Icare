@@ -1,6 +1,9 @@
 import image from "/images/StockPhotoImage1.jpg";
 import styles from "./YourCurrentCareGiver.module.css";
 import image2 from "/images/thereseansingh.jpg";
+import image4 from "/images/image4.jpg";
+import image5 from "/images/image5.jpg";
+import image6 from "/images/image6.jpg";
 
 const YourMessageList = () => {
   //   const handleContact = () => {
@@ -11,7 +14,7 @@ const YourMessageList = () => {
       <h1 className={styles.header}>your inbox</h1>
       <div className={styles.content}>
         <div className={styles.messageListItem}>
-          <img className={styles.smallLogo} src={image}></img>
+          <img className={styles.smallLogo} src={image5}></img>
           <div className={styles.messageListItemText}>
             {/* <div className={styles.messageListItemTextContainer}> */}
               <div className={styles.name}>Adam Kirwan</div>
@@ -26,7 +29,7 @@ const YourMessageList = () => {
           </div>
         </div>
         <div className={styles.messageListItem}>
-          <img className={styles.smallLogo} src={image}></img>
+          <img className={styles.smallLogo} src={image4}></img>
           <div className={styles.messageListItemText}>
             {/* <div className={styles.messageListItemTextContainer}> */}
               <div className={styles.name}>Edward Loy</div>
@@ -56,7 +59,7 @@ const YourMessageList = () => {
           </div>
         </div>
         <div className={styles.messageListItem}>
-          <img className={styles.smallLogo} src={image}></img>
+          <img className={styles.smallLogo} src={image6}></img>
           <div className={styles.messageListItemText}>
             {/* <div className={styles.messageListItemTextContainer}> */}
               <div className={styles.name}>Ingrid Wilstein</div>
