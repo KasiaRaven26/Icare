@@ -64,6 +64,7 @@ export function LoginNew() {
           <h1>Login</h1>
 
           <form className="login-form" onSubmit={handleSubmit}>
+            <div  className="label-and-input-div">
             <div>
               <label className="input-label">Full Name</label>
               <input
@@ -86,11 +87,13 @@ export function LoginNew() {
                 onChange={handleChange}
               />
             </div>
+            </div>
+            
             
               
             
-            <Button type="submit">submit</Button>
-            <Button type="close">close</Button>
+           <div className="button-container"> <Button type="submit">submit</Button>
+            <Button type="close">close</Button></div>
           </form>
           
         </div>

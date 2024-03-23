@@ -49,11 +49,13 @@
   color: #006394;
 }
 .content {
-  /* width: 100%;
-  height: 80%;
-  position: relative; */
+ 
   margin: 20px;
-}
+  
+
+    }
+  
+
 
 .iconDiv {
   position: absolute;
@@ -76,14 +78,18 @@
 .smallLogo {
   height: 50px;
   width: 50px;
-  border-radius: 10px;
+  border-radius: 25px;
   border: 1px solid black;
   margin: 5px;
   /* display: block */
+  margin-block: auto;
 }
 
 .name {
-  font-weight: 700;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 8px;
 }
 
 .careGiverDetails {
@@ -94,9 +100,12 @@
   padding: 20px;
 }
 .messageListItem {
-  border-bottom: 1px solid black;
-  margin: 2px;
+  border: 0.5px solid black;
+  margin: 7px;
   display: flex;
+  border-radius: 35px;
+ 
+  
 }
 .messageListItemText {
   padding: 5px;
@@ -177,4 +186,25 @@
 
 .experience {
   margin-top: 10px;
+}
+.contactbutton {
+  border-radius: 15px;
+  border: 1.5px solid black;
+ margin:15px;
+  background-color: #25a59f51;
+  height: 35px;
+  width: 80px;
+  font-weight: 300;
+  font-size: medium;
+  box-shadow: 7px 7px 20px 0px rgba(74, 72, 72, 0.1),
+    40px 40px 10px -40px rgba(56, 180, 211, 0.8) inset;
+}
+  
+.contactbutton:hover{
+  border: 1.5px solid rgba(59, 199, 221, 0.568);
+  color: white;
+}
+
+.messageListItem:hover {
+  color: #62d1d9;
 }

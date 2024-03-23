@@ -21,8 +21,10 @@
     margin-right:50px;
     font-size:20px;
     text-align:center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    
     
     
     
@@ -32,6 +34,7 @@
 
 .messageicon {
     margin-left: 20px;
+    
 }
 /* .link-div > a {
     margin-left: 50px;
