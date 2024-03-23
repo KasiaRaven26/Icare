@@ -1,5 +1,4 @@
-import image from "/images/StockPhotoImage1.jpg";
-import styles from "./YourCurrentCareGiver.module.css";
+import styles from "./YourMessageList.module.css";
 import image2 from "/images/thereseansingh.jpg";
 import image4 from "/images/image4.jpg";
 import image5 from "/images/image5.jpg";
@@ -55,6 +54,21 @@ const YourMessageList = () => {
           </div>
           <div>
             <div className={styles.messageListItemTimeContainer}> today 8:40AM</div>
+            <button className={styles.contactbutton}>reply</button>
+          </div>
+        </div>
+        <div className={styles.messageListItem}>
+          <img className={styles.smallLogo} src={image6}></img>
+          <div className={styles.messageListItemText}>
+            {/* <div className={styles.messageListItemTextContainer}> */}
+              <div className={styles.name}>Ingrid Wilstein</div>
+              <div>
+                Good morning Samantha. How are you today? Are you still looking for a job?
+              </div>
+            {/* </div> */}
+          </div>
+          <div>
+            <div className={styles.messageListItemTimeContainer}>15/03/2024</div>
             <button className={styles.contactbutton}>reply</button>
           </div>
         </div>

@@ -49,11 +49,13 @@
   color: #006394;
 }
 .content {
-  /* width: 100%;
-  height: 80%;
-  position: relative; */
+ 
   margin: 20px;
-}
+  
+
+    }
+  
+
 
 .iconDiv {
   position: absolute;

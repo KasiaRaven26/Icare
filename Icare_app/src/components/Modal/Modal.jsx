@@ -16,7 +16,7 @@ export function Modal({ HidingTheForm }) {
             <h1 className="highlight">SUBMIT FORM</h1>
           </header>
           <div>
-            <form>
+            <form className="form">
               <div className="control">
                 <label>E-mail address</label>
                 <input type="url" />

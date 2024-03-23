@@ -71,19 +71,28 @@
 }
 
 .control label {
-  display: flex;
-  font-weight: 140;
+  display:flex;
+  font-weight: 130;
   margin-bottom: 0.5rem;
   margin-left: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
 }
 
 .control input,
 .control textarea {
   display: block;
   font: inherit;
-  border-radius: 4px;
-  border: 2.3px solid #cccccc;
-  padding: 0.25rem;
+  border-radius: 8px;
+  border: 1px solid #626161ce;
+  padding: 0.30rem;
   width: 70%;
   margin-left: 60px;
+}
+
+.form {
+  margin-right:10px;
+  margin-bottom: 35px;
+  
 }
